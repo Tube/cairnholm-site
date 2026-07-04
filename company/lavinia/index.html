@@ -17,13 +17,27 @@ html, body { margin: 0; padding: 0; background: #e7ddc3; }
 body { background-image: radial-gradient(ellipse 120% 90% at 50% 0%, rgba(255,251,238,0.5), rgba(0,0,0,0) 60%), radial-gradient(ellipse 140% 100% at 50% 100%, rgba(58,42,20,0.14), rgba(0,0,0,0) 55%); }
 ::selection { background: #6e2c1f; color: #f0e8d2; }
 a:hover { color: #6e2c1f !important; opacity: 1 !important; }
-@media (max-width: 560px) { .personae-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 560px) {
+  .page { padding: 0 16px 72px 16px !important; }
+  .site-nav { flex-wrap: wrap !important; justify-content: center !important; gap: 4px 24px !important; font-size: 13.5px !important; letter-spacing: 0.1em !important; text-align: center !important; }
+  .site-nav > span { flex-wrap: wrap !important; justify-content: center !important; gap: 8px 20px !important; }
+  .dateline { flex-direction: column !important; align-items: center !important; gap: 3px !important; }
+  .personae-grid { grid-template-columns: 1fr !important; }
+  .prose { text-align: left !important; }
+  .page-footer { flex-direction: column !important; align-items: center !important; gap: 12px !important; text-align: center !important; }
+  .ledger-row { flex-wrap: wrap !important; row-gap: 8px !important; }
+  .ledger-links { flex: 0 0 100% !important; box-sizing: border-box !important; padding-left: 84px !important; }
+  .letterhead-top { font-size: 13px !important; letter-spacing: 0.18em !important; }
+  .letterhead-sub { letter-spacing: 0.12em !important; }
+  .signature-row { flex-wrap: wrap !important; justify-content: center !important; }
+  .particulars-links { flex-direction: column !important; align-items: center !important; gap: 14px !important; }
+}
 </style>
 </head>
 <body>
-<div style="min-height: 100vh; color: #2a2114; font-family: 'EB Garamond', Georgia, serif; display: flex; flex-direction: column; align-items: center; padding: 0 24px 96px 24px">
+<div class="page" style="min-height: 100vh; color: #2a2114; font-family: 'EB Garamond', Georgia, serif; display: flex; flex-direction: column; align-items: center; padding: 0 24px 96px 24px">
 
-  <nav style="width: 100%; max-width: 760px; display: flex; justify-content: space-between; align-items: baseline; padding: 18px 4px 10px 4px; border-bottom: 1px solid rgba(42,33,20,0.35); font-family: 'IM Fell English SC', serif; font-size: 15px; letter-spacing: 0.14em">
+  <nav class="site-nav" style="width: 100%; max-width: 760px; display: flex; justify-content: space-between; align-items: baseline; padding: 18px 4px 10px 4px; border-bottom: 1px solid rgba(42,33,20,0.35); font-family: 'IM Fell English SC', serif; font-size: 15px; letter-spacing: 0.14em">
     <a href="/" style="color: #2a2114; text-decoration: none; opacity: 0.75">To-day&rsquo;s Case</a>
     <span style="display: flex; gap: 28px">
       <span style="color: #2a2114; opacity: 0.45">The Inspector&rsquo;s Brief</span>
@@ -45,11 +59,11 @@ a:hover { color: #6e2c1f !important; opacity: 1 !important; }
     <div style="font-size: 20px; color: #5d5140; margin-top: 20px">&#10086;</div>
   </div>
 
-  <article style="width: 100%; max-width: 560px; padding: 34px 0 0 0; font-size: 19px; line-height: 1.72; text-align: justify; hyphens: auto">
+  <article class="prose" style="width: 100%; max-width: 560px; padding: 34px 0 0 0; font-size: 19px; line-height: 1.72; text-align: justify; hyphens: auto">
     <p style="margin: 0">Lady Lavinia Loveless was an actress of the touring kind — tragic parts, provincial houses, notices she can still recite — until the profession and she released one another by mutual consent. She now practises at a quieter table: the séance, conducted with great decorum, at which the departed are consulted and, it is said, occasionally answer. The title arrived with the billing, and like much about her is best not pressed.</p><p style="margin: 20px 0 0 0">She resides at Hartfield House as cousin and guest of Xerxes, receiving her sitters in her own wing. Her manner is warm — warmer, the drawing-rooms observe, than strict prudence would advise; she is apt to let people rather too close, and to be surprised, afterward, at what proximity costs. The Colonel's weekly sitting for his late wife is her most faithful engagement, in every sense.</p>
   </article>
 
-  <footer style="width: 100%; max-width: 640px; margin-top: 72px; border-top: 1px solid rgba(42,33,20,0.35); padding-top: 16px; display: flex; justify-content: space-between; align-items: baseline; font-size: 15px; color: #5d5140">
+  <footer class="page-footer" style="width: 100%; max-width: 640px; margin-top: 72px; border-top: 1px solid rgba(42,33,20,0.35); padding-top: 16px; display: flex; justify-content: space-between; align-items: baseline; font-size: 15px; color: #5d5140">
     <a href="/" style="font-family: 'IM Fell English SC', serif; letter-spacing: 0.12em; color: #6e2c1f; text-decoration: none">&larr; To-day&rsquo;s Case</a>
     <a href="/casebook/" style="font-family: 'IM Fell English SC', serif; letter-spacing: 0.12em; color: #6e2c1f; text-decoration: none">The Casebook &rarr;</a>
   </footer>

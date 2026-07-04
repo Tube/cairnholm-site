@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Vespers &mdash; The Cairnholm Murder Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="32x32 16x16">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/favicon-256.png">
+<link rel="apple-touch-icon" href="/favicon-256.png">
+<link rel="stylesheet" href="board.css">
+</head>
+<body>
+<div class="page">
+
+  <nav class="site-nav">
+    <a href="/">To-day&rsquo;s Case</a>
+    <span>
+      <a href="/pistols/">The Pistols</a>
+      <a href="/vespers/" class="active">The Vespers</a>
+      <a href="/casebook/">The Casebook</a>
+    </span>
+  </nav>
+
+  <header class="masthead">
+    <div class="masthead-kicker">The Cairnholm Murder Club presents</div>
+    <h1>The Vespers</h1>
+    <p class="standfirst">Before the evening office, St Serf&rsquo;s rings a
+    touch. The band is chronically short, and guests of the parish take the
+    vacant ropes; the method is unforgiving, and every hand upon a rope is a
+    hand accounted for &mdash; every two seconds, for the whole of the touch.
+    The tower proves everyone. The murder lives in the flaw.</p>
+    <div class="hedera">&#10086;</div>
+  </header>
+
+  <section id="frame" class="frame"></section>
+
+  <section class="panel" id="method-panel">
+    <h2>The Method</h2>
+    <p class="board-note" id="method-note"></p>
+    <div id="method-diagram" class="rowgrid small"></div>
+  </section>
+
+  <section class="panel" id="customs-panel">
+    <h2>The Tower&rsquo;s Customs</h2>
+    <ol id="customs-list"></ol>
+    <p class="board-note" id="particulars"></p>
+  </section>
+
+  <section class="panel" id="attest-panel">
+    <h2>What the Parish Attests</h2>
+    <ol id="clue-list"></ol>
+  </section>
+
+  <section class="boardwrap">
+    <h2>The Rows</h2>
+    <p class="board-note">Set down the rows as they were truly rung &mdash;
+    touch a figure to change it. The opening rounds stand given; the line may
+    be laid in first and corrected where the parish heard otherwise.</p>
+    <div class="checkrow" style="margin-top:0">
+      <button id="lay-line" class="btn small-btn">Lay the method&rsquo;s line</button>
+    </div>
+    <div id="rowgrid" class="rowgrid"></div>
+    <div class="checkrow">
+      <button id="check-rows" class="btn">Prove the rows</button>
+      <span id="rows-word" class="check-word"></span>
+    </div>
+  </section>
+
+  <section class="boardwrap">
+    <h2>The Circle</h2>
+    <p class="board-note">Set each ringer to a rope. The captain keeps his
+    own.</p>
+    <div id="tray" class="tray"></div>
+    <div id="circle" class="circle"></div>
+    <div class="checkrow">
+      <button id="check-ropes" class="btn">Prove the ropes</button>
+      <span id="ropes-word" class="check-word"></span>
+    </div>
+  </section>
+
+  <section class="panel hidden" id="murder-panel">
+    <h2>The Question</h2>
+    <p class="board-note" id="murder-question"></p>
+    <div id="killer-pick" class="tray"></div>
+    <span id="killer-word" class="check-word"></span>
+  </section>
+
+  <section class="panel hidden reveal" id="reveal-panel">
+    <h2>The Note on the Office</h2>
+    <div id="brief"></div>
+    <div class="hedera">&#10086;</div>
+    <div id="solution-grid" class="rowgrid small"></div>
+    <div id="solution-circle" class="circle small"></div>
+  </section>
+
+  <footer class="page-footer">
+    <span class="tagline">Cairnholm.co.uk &mdash; the office is weekly; the
+    Club asks the reader&rsquo;s discretion in the meanwhile.</span>
+    <a href="/casebook/">The Casebook &rarr;</a>
+  </footer>
+
+</div>
+<script src="board.js"></script>
+</body>
+</html>

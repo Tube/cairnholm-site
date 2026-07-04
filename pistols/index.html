@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Pistols &mdash; The Cairnholm Murder Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="32x32 16x16">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/favicon-256.png">
+<link rel="apple-touch-icon" href="/favicon-256.png">
+<link rel="stylesheet" href="board.css">
+</head>
+<body>
+<div class="page">
+
+  <nav class="site-nav">
+    <a href="/">To-day&rsquo;s Case</a>
+    <span>
+      <a href="/pistols/" class="active">The Pistols</a>
+      <a href="/vespers/">The Vespers</a>
+      <a href="/casebook/">The Casebook</a>
+    </span>
+  </nav>
+
+  <header class="masthead">
+    <div class="masthead-kicker">The Cairnholm Murder Club presents</div>
+    <h1>The Pistols</h1>
+    <p class="standfirst">Once a week, after divine service, the Colonel has a
+    loaded pistol laid at every place setting of his table, by rules of his
+    own devising. The household observes the custom; the reader observes the
+    household. When the company rose, one of them did not.</p>
+    <div class="hedera">&#10086;</div>
+  </header>
+
+  <section id="frame" class="frame"></section>
+
+  <section class="panel" id="protocol-panel">
+    <h2>The Colonel&rsquo;s Protocol</h2>
+    <ol id="protocol-list"></ol>
+    <p class="board-note" style="margin-top: 16px">The company&rsquo;s
+    particulars, so far as the rules require them: the Colonel and Xerxes
+    Hartfield are partners in the venture, and no one is under litigation;
+    the Swains are twins, and the Reverend Gaunt is elder half-brother to
+    Lady Lavinia; no guest has quarrelled with the host. Of the ladies of the
+    company, Lady Lavinia Loveless alone is widowed; none is titled; and
+    none now of the company, the Club is assured, has ever shot a bishop.</p>
+  </section>
+
+  <section class="panel" id="attest-panel">
+    <h2>What the Household Attests</h2>
+    <ol id="clue-list"></ol>
+  </section>
+
+  <section class="boardwrap">
+    <h2>The Table</h2>
+    <p class="board-note">Set each guest in a chair, and set each pistol as it
+    was found &mdash; touch a place&rsquo;s pistol to turn it charged,
+    uncharged, or gone. The Colonel keeps his own chair.</p>
+    <div id="tray" class="tray"></div>
+    <div id="board" class="board"></div>
+    <div class="checkrow">
+      <button id="check-arrangement" class="btn">Submit the arrangement</button>
+      <span id="check-word" class="check-word"></span>
+    </div>
+  </section>
+
+  <section class="panel hidden" id="murder-panel">
+    <h2>The Question</h2>
+    <p class="board-note" id="murder-question"></p>
+    <div id="killer-pick" class="tray"></div>
+    <span id="killer-word" class="check-word"></span>
+  </section>
+
+  <section class="panel hidden reveal" id="reveal-panel">
+    <h2>The Inspector&rsquo;s Note on the Observance</h2>
+    <div id="brief"></div>
+    <div class="hedera">&#10086;</div>
+    <div id="solution-diagram" class="board small"></div>
+  </section>
+
+  <footer class="page-footer">
+    <span class="tagline">Cairnholm.co.uk &mdash; the observance is weekly;
+    the Club asks the reader&rsquo;s discretion in the meanwhile.</span>
+    <a href="/casebook/">The Casebook &rarr;</a>
+  </footer>
+
+</div>
+<script src="board.js"></script>
+</body>
+</html>
