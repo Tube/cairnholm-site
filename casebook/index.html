@@ -17,13 +17,27 @@ html, body { margin: 0; padding: 0; background: #e7ddc3; }
 body { background-image: radial-gradient(ellipse 120% 90% at 50% 0%, rgba(255,251,238,0.5), rgba(0,0,0,0) 60%), radial-gradient(ellipse 140% 100% at 50% 100%, rgba(58,42,20,0.14), rgba(0,0,0,0) 55%); }
 ::selection { background: #6e2c1f; color: #f0e8d2; }
 a:hover { color: #6e2c1f !important; opacity: 1 !important; }
-@media (max-width: 560px) { .personae-grid { grid-template-columns: 1fr !important; } }
+@media (max-width: 560px) {
+  .page { padding: 0 16px 72px 16px !important; }
+  .site-nav { flex-wrap: wrap !important; justify-content: center !important; gap: 4px 24px !important; font-size: 13.5px !important; letter-spacing: 0.1em !important; text-align: center !important; }
+  .site-nav > span { flex-wrap: wrap !important; justify-content: center !important; gap: 8px 20px !important; }
+  .dateline { flex-direction: column !important; align-items: center !important; gap: 3px !important; }
+  .personae-grid { grid-template-columns: 1fr !important; }
+  .prose { text-align: left !important; }
+  .page-footer { flex-direction: column !important; align-items: center !important; gap: 12px !important; text-align: center !important; }
+  .ledger-row { flex-wrap: wrap !important; row-gap: 8px !important; }
+  .ledger-links { flex: 0 0 100% !important; box-sizing: border-box !important; padding-left: 84px !important; }
+  .letterhead-top { font-size: 13px !important; letter-spacing: 0.18em !important; }
+  .letterhead-sub { letter-spacing: 0.12em !important; }
+  .signature-row { flex-wrap: wrap !important; justify-content: center !important; }
+  .particulars-links { flex-direction: column !important; align-items: center !important; gap: 14px !important; }
+}
 </style>
 </head>
 <body>
-<div style="min-height: 100vh; color: #2a2114; font-family: 'EB Garamond', Georgia, serif; display: flex; flex-direction: column; align-items: center; padding: 0 24px 96px 24px">
+<div class="page" style="min-height: 100vh; color: #2a2114; font-family: 'EB Garamond', Georgia, serif; display: flex; flex-direction: column; align-items: center; padding: 0 24px 96px 24px">
 
-  <nav style="width: 100%; max-width: 760px; display: flex; justify-content: space-between; align-items: baseline; padding: 18px 4px 10px 4px; border-bottom: 1px solid rgba(42,33,20,0.35); font-family: 'IM Fell English SC', serif; font-size: 15px; letter-spacing: 0.14em">
+  <nav class="site-nav" style="width: 100%; max-width: 760px; display: flex; justify-content: space-between; align-items: baseline; padding: 18px 4px 10px 4px; border-bottom: 1px solid rgba(42,33,20,0.35); font-family: 'IM Fell English SC', serif; font-size: 15px; letter-spacing: 0.14em">
     <a href="/" style="color: #2a2114; text-decoration: none; opacity: 0.75">To-day&rsquo;s Case</a>
     <span style="display: flex; gap: 28px">
       <span style="color: #2a2114; opacity: 0.45">The Inspector&rsquo;s Brief</span>
@@ -40,22 +54,22 @@ a:hover { color: #6e2c1f !important; opacity: 1 !important; }
 
   <section style="width: 100%; max-width: 720px; margin-top: 40px; border-top: 2px solid #2a2114">
 
-    <div style="border-bottom: 1px solid rgba(42,33,20,0.4); background: rgba(242,234,212,0.7); padding: 20px 18px; display: flex; gap: 20px; align-items: baseline">
-      <span style="flex: 0 0 64px; font-family: 'IM Fell English SC', serif; font-size: 17px; color: #6e2c1f">I</span>
+    <div class="ledger-row" style="border-bottom: 1px solid rgba(42,33,20,0.4); padding: 18px 18px; display: flex; gap: 20px; align-items: baseline">
+      <span style="flex: 0 0 64px; font-family: 'IM Fell English SC', serif; font-size: 16px; color: #5d5140">I</span>
       <span style="flex: 1 1 auto; min-width: 0">
-        <a href="/case/1886-07-03/" style="font-family: 'IM Fell English', serif; font-style: italic; font-size: 23px; color: #2a2114; text-decoration: none">The Founding Supper</a>
-        <span style="display: block; font-size: 15px; color: #5d5140; margin-top: 2px">Saturday, the 3rd of July, 1886 &mdash; <em>to-day&rsquo;s case</em></span>
+        <a href="/case/1886-07-03/" style="font-family: 'IM Fell English', serif; font-style: italic; font-size: 21px; color: #2a2114; text-decoration: none">The Founding Supper</a>
+        <span style="display: block; font-size: 15px; color: #5d5140; margin-top: 2px">Saturday, the 3rd of July, 1886</span>
       </span>
-      <span style="flex: 0 0 auto; display: flex; gap: 18px; font-variant: small-caps; letter-spacing: 0.1em; font-size: 15px">
+      <span class="ledger-links" style="flex: 0 0 auto; display: flex; gap: 18px; font-variant: small-caps; letter-spacing: 0.1em; font-size: 15px">
         <a href="/case/1886-07-03/" style="color: #6e2c1f; text-decoration: none">the case</a>
-        <span style="color: rgba(42,33,20,0.5); font-style: italic; font-variant: normal; letter-spacing: 0">brief to-morrow</span>
+        <a href="/brief/1886-07-03/" style="color: #6e2c1f; text-decoration: none">the brief</a>
       </span>
     </div>
   </section>
 
   <p style="font-style: italic; font-size: 15.5px; color: #5d5140; margin: 26px 0 0 0; max-width: 560px; text-align: center">The Club keeps no scores and sets no clocks. A case once closed remains closed; its people, being the Club&rsquo;s own, return the next morning unharmed and unimproved.</p>
 
-  <footer style="width: 100%; max-width: 720px; margin-top: 72px; border-top: 1px solid rgba(42,33,20,0.35); padding-top: 16px; display: flex; justify-content: space-between; align-items: baseline; font-size: 15px; color: #5d5140">
+  <footer class="page-footer" style="width: 100%; max-width: 720px; margin-top: 72px; border-top: 1px solid rgba(42,33,20,0.35); padding-top: 16px; display: flex; justify-content: space-between; align-items: baseline; font-size: 15px; color: #5d5140">
     <span style="font-style: italic">Cairnholm.co.uk&nbsp;&mdash; printed nightly at the sign of the hedera&nbsp;&#10086;</span>
     <a href="/" style="font-family: 'IM Fell English SC', serif; letter-spacing: 0.12em; color: #6e2c1f; text-decoration: none">To-day&rsquo;s Case &rarr;</a>
   </footer>
