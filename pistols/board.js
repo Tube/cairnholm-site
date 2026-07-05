@@ -201,7 +201,9 @@
         });
         p.addEventListener("click", function () {
           if (seat === "FOOT" || arrangementSolved) { return; }
-          gun[seat] = gun[seat] === "c" ? "u" : (gun[seat] === "u" ? "x" : "c");
+          // charged <-> uncharged only: a pistol is laid at every place, never
+          // absent, in these puzzles (no moved/missing pistols this week).
+          gun[seat] = gun[seat] === "c" ? "u" : "c";
           renderPistol(p, seat, false);
         });
       }

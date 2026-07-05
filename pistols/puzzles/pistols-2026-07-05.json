@@ -92,7 +92,7 @@
     },
     {
       "id": "bishop_clause",
-      "text": "No lady is seated beside a loaded pistol unless she is widowed, titled, or has previously shot a bishop.",
+      "text": "No lady is seated at the elbow of a guest with a loaded pistol unless she is widowed, titled, or has previously shot a bishop.",
       "restate": true
     },
     {
@@ -102,12 +102,17 @@
     },
     {
       "id": "quarrel_salt",
-      "text": "A guest who has quarrelled with the host is seated below the salt.",
+      "text": "A guest who has quarrelled with the host is seated \"below the salt\" (the seats nearest the foot).",
       "restate": true
     },
     {
       "id": "memorial_pistol",
       "text": "The pistol at an empty place is laid, but never loaded.",
+      "restate": true
+    },
+    {
+      "id": "host_pistol",
+      "text": "The host's own pistol is always charged — a fixture of the table, and no threat to those who sit beside it.",
       "restate": true
     }
   ],
@@ -143,7 +148,7 @@
         "b": "fifi",
         "c": "quill"
       },
-      "voiced": "Fifi Swain sat between Effie Strange and Dr Tobias Quill."
+      "voiced": "Fifi Swain sat somewhere between Effie Strange and Dr Tobias Quill."
     },
     {
       "tokens": {

@@ -168,6 +168,23 @@ a:hover { color: #6e2c1f !important; opacity: 1 !important; }
 .board.small .who { font-size: 12px; }
 .deviant { outline: 2px solid #6e2c1f; outline-offset: -2px; }
 
+/* the murder-deduction rules (the Club's reckoning; oxblood-set) */
+#murder-rules h2 { color: #6e2c1f; }
+.murder-sub {
+  text-align: center; font-style: italic; font-size: 16px;
+  color: #7a6a52; margin: -6px 0 18px 0; line-height: 1.45;
+}
+.oxrule {
+  border-left: 4px solid #6e2c1f; background: rgba(110,44,31,0.06);
+  padding: 12px 16px; margin: 12px 0; font-size: 17.5px; line-height: 1.55;
+  color: #3c2a22; font-style: italic;
+}
+.oxrule .lead {
+  font-family: 'IM Fell English SC', serif; font-style: normal;
+  letter-spacing: 0.1em; font-size: 13px; color: #6e2c1f;
+  display: block; margin-bottom: 4px;
+}
+
 .page-footer {
   width: 100%; max-width: 720px; margin-top: 72px;
   border-top: 1px solid rgba(42,33,20,0.35); padding-top: 16px;
