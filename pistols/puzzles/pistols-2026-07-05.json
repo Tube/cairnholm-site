@@ -1,0 +1,255 @@
+{
+  "id": "pistols-2026-07-05",
+  "difficulty": "introductory",
+  "table": {
+    "sides": [
+      6,
+      5
+    ],
+    "head": "cecil",
+    "foot": "memorial"
+  },
+  "cast": [
+    {
+      "id": "cecil",
+      "display_name": "Colonel Cecil Cruikshank",
+      "portrait": "/assets/colonel.jpg",
+      "short_name": "the Colonel"
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg",
+      "short_name": "Nan Pringle"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg",
+      "short_name": "Xerxes Hartfield"
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fenella \"Fifi\" Swain",
+      "portrait": "/assets/swains.jpg",
+      "short_name": "Fifi Swain"
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg",
+      "short_name": "Zane Swain"
+    },
+    {
+      "id": "wat",
+      "display_name": "Captain Wat Frew",
+      "portrait": "/assets/wat.jpg",
+      "short_name": "Captain Wat Frew"
+    },
+    {
+      "id": "cousin_r",
+      "display_name": "Cousin R",
+      "portrait": "/assets/cousin-r.jpg",
+      "short_name": "Cousin R"
+    },
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg",
+      "short_name": "Aziz"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "short_name": "Lady Lavinia Loveless"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "Rev. Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg",
+      "short_name": "the Reverend Simeon Gaunt"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "short_name": "Dr Tobias Quill"
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg",
+      "short_name": "Effie Strange"
+    }
+  ],
+  "victim": "nan",
+  "protocol": [
+    {
+      "id": "partners_left",
+      "text": "Business partners sit to the host's left unless under litigation.",
+      "restate": true
+    },
+    {
+      "id": "bishop_clause",
+      "text": "No lady is seated beside a loaded pistol unless she is widowed, titled, or has previously shot a bishop.",
+      "restate": true
+    },
+    {
+      "id": "kin_same_side",
+      "text": "Kin are seated upon the same side of the table, elder nearer the host.",
+      "restate": true
+    },
+    {
+      "id": "quarrel_salt",
+      "text": "A guest who has quarrelled with the host is seated below the salt.",
+      "restate": true
+    },
+    {
+      "id": "memorial_pistol",
+      "text": "The pistol at an empty place is laid, but never loaded.",
+      "restate": true
+    }
+  ],
+  "clues": [
+    {
+      "tokens": {
+        "type": "gun",
+        "guest": "quill",
+        "state": "charged"
+      },
+      "voiced": "Dr Tobias Quill carried a charged pistol to table."
+    },
+    {
+      "tokens": {
+        "type": "opposite",
+        "a": "xerxes",
+        "b": "zane"
+      },
+      "voiced": "Xerxes Hartfield sat directly across the table from Zane Swain."
+    },
+    {
+      "tokens": {
+        "type": "adjacent",
+        "a": "wat",
+        "b": "zane"
+      },
+      "voiced": "Captain Wat Frew took his place at the elbow of Zane Swain."
+    },
+    {
+      "tokens": {
+        "type": "between",
+        "a": "effie",
+        "b": "fifi",
+        "c": "quill"
+      },
+      "voiced": "Fifi Swain sat between Effie Strange and Dr Tobias Quill."
+    },
+    {
+      "tokens": {
+        "type": "below_salt",
+        "guest": "quill",
+        "value": true
+      },
+      "voiced": "Dr Tobias Quill was seated below the salt."
+    },
+    {
+      "tokens": {
+        "type": "nearer_host",
+        "nearer": "lavinia",
+        "farther": "effie"
+      },
+      "voiced": "Lady Lavinia Loveless was positioned nearer the host than Effie Strange."
+    },
+    {
+      "tokens": {
+        "type": "opposite",
+        "a": "cousin_r",
+        "b": "quill"
+      },
+      "voiced": "Cousin R sat directly across the table from Dr Tobias Quill."
+    },
+    {
+      "tokens": {
+        "type": "nearer_host",
+        "nearer": "quill",
+        "farther": "aziz"
+      },
+      "voiced": "Dr Tobias Quill was nearer the host than Aziz."
+    }
+  ],
+  "answer_hashes": {
+    "arrangement": "9f16de26ca97822f794db4458bce1802e7030d56547a5a2430dfd308368b1d23",
+    "killer": "8eb67be4a423ea6a9ab1040cb5ada06e5edc193b2474983055ae2d4f0134be2b",
+    "salt": "dda689333324bd59"
+  },
+  "reveal": {
+    "brief_voiced": "Fifi Swain stands accused, and the table condemns her. The pistol at Dr Tobias Quill's place—the fifth upon the host's right—lay charged against the Colonel's protocol, which demands that no loaded weapon sit beside a lady. Yet Fifi Swain occupied the fourth place upon that same right hand, and the charged pistol fell within her reach. She sat directly across from Nan Pringle, who held the fourth place upon the left.\n\nFifi, a lady's-maid and twin to Zane, hears more than a servant ought. Nan Pringle, the Colonel's poor relation, pours the tea and keeps the accounts, missing nothing. What Nan heard or saw—what secrets a servant in the household learns—proved a threat that could not stand. A woman who listens and remembers is dangerous to those with something to hide.\n\nThe case is closed.",
+    "diagram": {
+      "seating": {
+        "L1": {
+          "id": "xerxes",
+          "display_name": "Xerxes Hartfield"
+        },
+        "L2": {
+          "id": "gaunt",
+          "display_name": "Rev. Simeon Gaunt"
+        },
+        "L3": {
+          "id": "lavinia",
+          "display_name": "Lady Lavinia Loveless"
+        },
+        "L4": {
+          "id": "nan",
+          "display_name": "Nan Pringle"
+        },
+        "L5": {
+          "id": "cousin_r",
+          "display_name": "Cousin R"
+        },
+        "L6": {
+          "id": "aziz",
+          "display_name": "Aziz"
+        },
+        "R1": {
+          "id": "zane",
+          "display_name": "Zane Swain"
+        },
+        "R2": {
+          "id": "wat",
+          "display_name": "Captain Wat Frew"
+        },
+        "R3": {
+          "id": "effie",
+          "display_name": "Effie Strange"
+        },
+        "R4": {
+          "id": "fifi",
+          "display_name": "Fenella \"Fifi\" Swain"
+        },
+        "R5": {
+          "id": "quill",
+          "display_name": "Dr Tobias Quill"
+        }
+      },
+      "guns": {
+        "HEAD": "c",
+        "L1": "c",
+        "L2": "c",
+        "L3": "u",
+        "L4": "c",
+        "L5": "u",
+        "L6": "c",
+        "R1": "c",
+        "R2": "u",
+        "R3": "u",
+        "R4": "u",
+        "R5": "c",
+        "FOOT": "u"
+      },
+      "deviation_seat": "R5"
+    },
+    "killer_display": "Fenella \"Fifi\" Swain",
+    "victim_display": "Nan Pringle"
+  }
+}
