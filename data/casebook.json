@@ -4,7 +4,7 @@
     "slug": "1886-07-04",
     "title": "Bright Thing",
     "published": "2026-07-04",
-    "brief": false,
+    "brief": true,
     "victim": "effie",
     "venue": "xerxes_house",
     "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260704_000006_186299_authored_xerxes-effie"
