@@ -1,5 +1,15 @@
 [
   {
+    "number": 3,
+    "slug": "1886-07-05",
+    "title": "Paid in Kind",
+    "published": "2026-07-05",
+    "brief": false,
+    "victim": "wat",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260705_000004_578355_authored_effie-wat"
+  },
+  {
     "number": 2,
     "slug": "1886-07-04",
     "title": "Bright Thing",
