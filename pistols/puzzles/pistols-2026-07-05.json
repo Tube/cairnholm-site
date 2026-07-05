@@ -13,73 +13,73 @@
     {
       "id": "cecil",
       "display_name": "Colonel Cecil Cruikshank",
-      "portrait": "/assets/colonel.jpg",
+      "portrait": "/assets/pistols/cecil.jpg",
       "short_name": "the Colonel"
     },
     {
       "id": "nan",
       "display_name": "Nan Pringle",
-      "portrait": "/assets/nan.jpg",
+      "portrait": "/assets/pistols/nan.jpg",
       "short_name": "Nan Pringle"
     },
     {
       "id": "xerxes",
       "display_name": "Xerxes Hartfield",
-      "portrait": "/assets/xerxes.jpg",
+      "portrait": "/assets/pistols/xerxes.jpg",
       "short_name": "Xerxes Hartfield"
     },
     {
       "id": "fifi",
       "display_name": "Fenella \"Fifi\" Swain",
-      "portrait": "/assets/swains.jpg",
+      "portrait": "/assets/pistols/fifi.jpg",
       "short_name": "Fifi Swain"
     },
     {
       "id": "zane",
       "display_name": "Zane Swain",
-      "portrait": "/assets/swains.jpg",
+      "portrait": "/assets/pistols/zane.jpg",
       "short_name": "Zane Swain"
     },
     {
       "id": "wat",
       "display_name": "Captain Wat Frew",
-      "portrait": "/assets/wat.jpg",
+      "portrait": "/assets/pistols/wat.jpg",
       "short_name": "Captain Wat Frew"
     },
     {
       "id": "cousin_r",
       "display_name": "Cousin R",
-      "portrait": "/assets/cousin-r.jpg",
+      "portrait": "/assets/pistols/cousin_r.jpg",
       "short_name": "Cousin R"
     },
     {
       "id": "aziz",
       "display_name": "Aziz",
-      "portrait": "/assets/aziz.jpg",
+      "portrait": "/assets/pistols/aziz.jpg",
       "short_name": "Aziz"
     },
     {
       "id": "lavinia",
       "display_name": "Lady Lavinia Loveless",
-      "portrait": "/assets/lavinia.jpg",
+      "portrait": "/assets/pistols/lavinia.jpg",
       "short_name": "Lady Lavinia Loveless"
     },
     {
       "id": "gaunt",
       "display_name": "Rev. Simeon Gaunt",
-      "portrait": "/assets/gaunt.jpg",
+      "portrait": "/assets/pistols/gaunt.jpg",
       "short_name": "the Reverend Simeon Gaunt"
     },
     {
       "id": "quill",
       "display_name": "Dr Tobias Quill",
-      "portrait": "/assets/quill.jpg",
+      "portrait": "/assets/pistols/quill.jpg",
       "short_name": "Dr Tobias Quill"
     },
     {
       "id": "effie",
       "display_name": "Effie Strange",
-      "portrait": "/assets/effie.jpg",
+      "portrait": "/assets/pistols/effie.jpg",
       "short_name": "Effie Strange"
     }
   ],
