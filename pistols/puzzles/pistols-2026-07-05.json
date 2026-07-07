@@ -164,7 +164,7 @@
         "nearer": "lavinia",
         "farther": "effie"
       },
-      "voiced": "Lady Lavinia Loveless was positioned nearer the host than Effie Strange."
+      "voiced": "Lady Lavinia Loveless was positioned no further from the host than Effie Strange."
     },
     {
       "tokens": {
@@ -180,7 +180,7 @@
         "nearer": "quill",
         "farther": "aziz"
       },
-      "voiced": "Dr Tobias Quill was nearer the host than Aziz."
+      "voiced": "Dr Tobias Quill was no further from the host than Aziz."
     }
   ],
   "answer_hashes": {
