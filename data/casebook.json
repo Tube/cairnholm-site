@@ -1,5 +1,15 @@
 [
   {
+    "number": 5,
+    "slug": "1886-07-07",
+    "title": "The Penitent's Ledger",
+    "published": "2026-07-07",
+    "brief": false,
+    "victim": "nan",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260706_234936_525922_generated_gaunt-nan"
+  },
+  {
     "number": 4,
     "slug": "1886-07-06",
     "title": "After the Rain",
