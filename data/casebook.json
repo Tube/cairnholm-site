@@ -1,5 +1,15 @@
 [
   {
+    "number": 6,
+    "slug": "1886-07-08",
+    "title": "The Séance at Cruikshank Manor",
+    "published": "2026-07-08",
+    "brief": false,
+    "victim": "fifi",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260707_233532_464120_generated_effie-fifi"
+  },
+  {
     "number": 5,
     "slug": "1886-07-07",
     "title": "The Penitent's Ledger",
