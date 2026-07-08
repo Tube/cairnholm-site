@@ -1,0 +1,223 @@
+{
+  "id": "vespers-2026-07-08",
+  "difficulty": "introductory",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "aziz",
+        "display_name": "Aziz"
+      },
+      {
+        "id": "zane",
+        "display_name": "Zane Swain"
+      },
+      {
+        "id": "quill",
+        "display_name": "Dr Tobias Quill"
+      },
+      {
+        "id": "lavinia",
+        "display_name": "Lady Lavinia Loveless"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      }
+    ],
+    "greenest": "zane",
+    "captain": "bellamy"
+  },
+  "victim": "gaunt",
+  "clues": [
+    {
+      "tokens": {
+        "type": "strikes_upon",
+        "bell": "caritas",
+        "upon": "temperantia",
+        "row": 5
+      },
+      "voiced": "Caritas struck upon Temperantia at the fifth change."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "aziz",
+        "b": "quill"
+      },
+      "voiced": "Aziz stood across the circle from Dr Tobias Quill."
+    },
+    {
+      "tokens": {
+        "type": "strikes_upon",
+        "bell": "spes",
+        "upon": "caritas",
+        "row": 5
+      },
+      "voiced": "Spes struck upon Caritas at the fifth change."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "quill",
+        "b": "zane"
+      },
+      "voiced": "Dr Tobias Quill's neighbouring ropes belonged to Zane Swain."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "aziz",
+        "b": "lavinia"
+      },
+      "voiced": "Aziz's rope lay neighbouring to that of Lady Lavinia Loveless."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "2b9d4bd884c0b915038992990af2c9be7f49a65817f041a7390fbb7168c162e9",
+    "ropes": "fd9ef7cb65c08aaf33116e08cb2eda53e1099088bdfca497c1ca0750a2bc4c00",
+    "killer": "669b7379e79995a91d7212c6b1f5f6675cd66d4cae664d49e6ef6a6b26bcb032",
+    "salt": "713d13104fb11116"
+  },
+  "reveal": {
+    "brief_voiced": "Dr Tobias Quill rang the second bell, Spes, and at the fifth change, about the second minute of the touch, his hands left the rope. That rope showed the flaw no other bell's rope could show—the tell that Spes herself could not produce. The method held perfect everywhere else. His hands were free at the moment the tower's geometry betrayed him.\n\nThe Reverend Simeon Gaunt, a mortifying cleric who kept his parish close and imposed penance without mercy, had drawn the physician's notice in ways that left him nervous and exposed. A man who supplies remedies knows what remedies undo. A coroner sees what others do not. The reverend's authority over the doctor's standing, his parish's reach, his power to demand and condemn—these things do not fade quietly from a nervous man's thoughts.\n\nThe tower remembers what hands forget.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "241635",
+        "426153",
+        "462513",
+        "645321",
+        "654321",
+        "563412",
+        "536142",
+        "351624",
+        "315264",
+        "132546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "zane",
+        "2": "quill",
+        "3": "deas",
+        "4": "lavinia",
+        "5": "aziz",
+        "6": "bellamy"
+      },
+      "flaw_row": 5,
+      "flaw_place": 4
+    },
+    "killer_display": "Dr Tobias Quill",
+    "victim_display": "the Reverend Simeon Gaunt"
+  }
+}
