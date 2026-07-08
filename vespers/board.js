@@ -286,6 +286,19 @@
       "rung, to place every hand upon its rope, and then to say whose hands " +
       "were, for a minute, nowhere at all.</p>";
 
+    var ring = $("ring-list");
+    ring.innerHTML = "";
+    var bells = ((puzzle.ring && puzzle.ring.bells) || []).slice()
+      .sort(function (a, b) { return a.number - b.number; });
+    var lastNo = bells.length ? bells[bells.length - 1].number : 0;
+    bells.forEach(function (b) {
+      var li = document.createElement("li");
+      li.textContent = b.name +
+        (b.number === 1 ? " — the treble" :
+         (b.number === lastNo ? " — the tenor" : ""));
+      ring.appendChild(li);
+    });
+
     $("method-note").textContent =
       "The method is " + puzzle.method.name + ": from rounds, every bell " +
       "hunts — one place at a time, out to the back and home again — for " +
