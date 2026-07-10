@@ -1,5 +1,15 @@
 [
   {
+    "number": 8,
+    "slug": "1886-07-10",
+    "title": "The Occasion of Sin",
+    "published": "2026-07-10",
+    "brief": false,
+    "victim": "aziz",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260709_233727_390904_generated_gaunt-aziz"
+  },
+  {
     "number": 7,
     "slug": "1886-07-09",
     "title": "The Colonel in Composition",
