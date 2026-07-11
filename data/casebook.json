@@ -1,5 +1,15 @@
 [
   {
+    "number": 9,
+    "slug": "1886-07-11",
+    "title": "A Question of Vintage",
+    "published": "2026-07-11",
+    "brief": false,
+    "victim": "cecil",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260710_233002_773036_authored_wat-cecil"
+  },
+  {
     "number": 8,
     "slug": "1886-07-10",
     "title": "The Occasion of Sin",
