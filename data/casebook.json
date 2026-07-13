@@ -1,5 +1,15 @@
 [
   {
+    "number": 11,
+    "slug": "1886-07-13",
+    "title": "The Séance and the Cypher",
+    "published": "2026-07-13",
+    "brief": false,
+    "victim": "nan",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260712_235546_650696_generated_fifi-nan"
+  },
+  {
     "number": 10,
     "slug": "1886-07-12",
     "title": "The Weekly Séance at Cruikshank Manor",
