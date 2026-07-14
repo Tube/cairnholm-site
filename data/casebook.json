@@ -1,5 +1,15 @@
 [
   {
+    "number": 12,
+    "slug": "1886-07-14",
+    "title": "The Doctor's Last Port",
+    "published": "2026-07-14",
+    "brief": false,
+    "victim": "quill",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260713_234519_753842_generated_zane-quill"
+  },
+  {
     "number": 11,
     "slug": "1886-07-13",
     "title": "The Séance and the Cypher",
