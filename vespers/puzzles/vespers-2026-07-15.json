@@ -1,0 +1,214 @@
+{
+  "id": "vespers-2026-07-15",
+  "difficulty": "introductory",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg"
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "effie",
+        "display_name": "Effie Strange"
+      },
+      {
+        "id": "cecil",
+        "display_name": "the Colonel"
+      },
+      {
+        "id": "fifi",
+        "display_name": "Fifi Swain"
+      },
+      {
+        "id": "lavinia",
+        "display_name": "Lady Lavinia Loveless"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      }
+    ],
+    "greenest": "effie",
+    "captain": "bellamy"
+  },
+  "victim": "aziz",
+  "clues": [
+    {
+      "tokens": {
+        "type": "strikes_upon",
+        "bell": "caritas",
+        "upon": "temperantia",
+        "row": 2
+      },
+      "voiced": "Caritas struck upon Temperantia at the second change."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "deas",
+        "b": "lavinia"
+      },
+      "voiced": "Obadiah Deas stood across the circle from Lady Lavinia Loveless."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "deas",
+        "b": "fifi"
+      },
+      "voiced": "Obadiah Deas and Fifi Swain worked neighbouring ropes."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "effie",
+        "b": "lavinia"
+      },
+      "voiced": "Effie Strange and Lady Lavinia Loveless worked neighbouring ropes."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "72b9b82ba63db6bbad749ccab6d7846070fcb93b95e97001112f5e6abe1891c1",
+    "ropes": "06d4bbc0fb20b1abeee3c5b390f56a25cceec9379a82ec9e5eb3a7633726473f",
+    "killer": "23c58aa4b92fa619237b404ace8cb7888ac2b852680cb7578528eca1cf4e7d72",
+    "salt": "f83b93c0274639a0"
+  },
+  "reveal": {
+    "brief_voiced": "The Colonel rang Caritas, the third bell, and at the second change his hands left the rope about the first minute into the touch. No other bell's method faltered. The tower speaks plainly: only the Colonel's hands were free at that moment, and Caritas bears the mark of it.\n\nThe Colonel's will lay unsettled, keeping others attentive to his affairs and fortune. Aziz was constant at Xerxes's side, a fixture no one enquires into—present always, seeing always, knowing always. A man of fixed habits and choleric temper does not suffer such witnessing lightly, nor does an unsettled will brook the steady gaze of one who cannot be dismissed or forgotten.\n\nThe bell does not lie.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "241653",
+        "426153",
+        "462513",
+        "645231",
+        "654321",
+        "563412",
+        "536142",
+        "351624",
+        "315264",
+        "132546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "effie",
+        "2": "lavinia",
+        "3": "cecil",
+        "4": "fifi",
+        "5": "deas",
+        "6": "bellamy"
+      },
+      "flaw_row": 2,
+      "flaw_place": 5
+    },
+    "killer_display": "the Colonel",
+    "victim_display": "Aziz"
+  }
+}
