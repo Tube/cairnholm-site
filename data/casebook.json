@@ -4,7 +4,7 @@
     "slug": "1886-07-15",
     "title": "A Draught for the Doctor",
     "published": "2026-07-15",
-    "brief": false,
+    "brief": true,
     "victim": "quill",
     "venue": "colonel_house",
     "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260715_000603_500172_generated_effie-quill"
