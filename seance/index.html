@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The S&eacute;ance &mdash; The Cairnholm Murder Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="32x32 16x16">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/favicon-256.png">
+<link rel="apple-touch-icon" href="/favicon-256.png">
+<link rel="stylesheet" href="board.css">
+<style>
+  .attest-group { margin: 0 0 14px 0; }
+  .attest-name { font-family: 'IM Fell English SC', serif; color: #6e2c1f;
+    letter-spacing: 0.06em; margin-bottom: 3px; }
+  .attest-group ul { margin: 0 0 0 18px; padding: 0; }
+  .attest-group li { margin: 2px 0; }
+  .orderlist { display: flex; flex-direction: column; gap: 6px;
+    max-width: 430px; }
+  .ordercard { display: flex; align-items: center; gap: 10px;
+    border: 1px solid #c9b895; background: #f6efdd; padding: 7px 10px; }
+  .ordercard .ord-label { flex: 1; }
+  .ordercard .ord-no { color: #8a7d68; width: 1.4em; text-align: right; }
+  .ordbtn { border: 1px solid #c9b895; background: #efe5cc; cursor: pointer;
+    font-family: inherit; font-size: 14px; padding: 1px 8px; }
+  .ordbtn:hover { background: #e3d5b4; }
+  .matchrow { display: flex; align-items: center; gap: 10px; margin: 6px 0; }
+  .matchrow label { min-width: 180px; }
+  .matchrow select { font-family: inherit; font-size: 15px;
+    border: 1px solid #c9b895; background: #f6efdd; padding: 3px 6px; }
+  .lettertiles .ordercard { max-width: 200px; }
+  .wordnote { color: #8a7d68; font-style: italic; margin: 6px 0 0 0; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <nav class="site-nav">
+    <a href="/">To-day&rsquo;s Case</a>
+    <span>
+      <a href="/pistols/">The Pistols</a>
+      <a href="/vespers/">The Vespers</a>
+      <a href="/seance/" class="active">The S&eacute;ance</a>
+      <a href="/casebook/">The Casebook</a>
+    </span>
+  </nav>
+
+  <header class="masthead">
+    <div class="masthead-kicker">The Cairnholm Murder Club presents</div>
+    <h1>The S&eacute;ance</h1>
+    <p class="standfirst">Each week Lady Lavinia Loveless holds a sitting at
+    Cruikshank Manor, for the comfort of the Colonel and the improvement of
+    her purse. The lamps are put out; the circle is joined; the dead oblige.
+    Every account of the dark is sworn true &mdash; and one is an
+    invention.</p>
+    <div class="hedera">&#10086;</div>
+  </header>
+
+  <section id="frame" class="frame"></section>
+
+  <section class="panel" id="sitting-panel">
+    <h2>The Sitting</h2>
+    <p class="board-note" id="sitting-note"></p>
+    <ol id="sitting-list"></ol>
+  </section>
+
+  <section class="panel" id="attest-panel">
+    <h2>What the Circle Attests</h2>
+    <p class="board-note">Taken down by the parish, each upon their oath.
+    The medium&rsquo;s own account is not doubted &mdash; whatever else may
+    be said of her, she knows her business.</p>
+    <div id="attest-list"></div>
+  </section>
+
+  <section class="boardwrap" id="work-panel">
+    <h2 id="work-title">The Reconstruction</h2>
+    <p class="board-note" id="work-note"></p>
+    <div id="workboard"></div>
+    <div class="checkrow">
+      <button id="check-solution" class="btn">Prove the sitting</button>
+      <span id="solution-word" class="check-word"></span>
+    </div>
+  </section>
+
+  <section class="panel hidden" id="murder-panel">
+    <h2>The Question</h2>
+    <p class="board-note" id="murder-question"></p>
+    <div id="killer-pick" class="tray"></div>
+    <span id="killer-word" class="check-word"></span>
+  </section>
+
+  <section class="panel hidden reveal" id="reveal-panel">
+    <h2>From the Medium&rsquo;s Ledger</h2>
+    <div id="ledger"></div>
+    <div class="hedera">&#10086;</div>
+    <div id="solution-display"></div>
+  </section>
+
+  <footer class="page-footer">
+    <span class="tagline">Cairnholm.co.uk &mdash; the sitting is weekly; the
+    Club asks the reader&rsquo;s discretion in the meanwhile.</span>
+    <a href="/casebook/">The Casebook &rarr;</a>
+  </footer>
+
+  <div class="mud-footer" style="width: 100%; max-width: 720px; margin-top: 48px; text-align: center; font-size: 14px; color: #8a7d68">
+    <div style="font-size: 17px; margin-bottom: 10px">&#10086;</div>
+    Looking for Cairnholm MUD? Connect your Telnet or MUD client to <span style="white-space: nowrap">mud.cairnholm.co.uk:1886</span>
+  </div>
+
+</div>
+<script src="board.js"></script>
+</body>
+</html>

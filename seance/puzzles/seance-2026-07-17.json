@@ -1,0 +1,219 @@
+{
+  "id": "seance-2026-07-17",
+  "mode": "testimony",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "cold",
+        "display": "the cold draught"
+      },
+      {
+        "id": "lamp",
+        "display": "the guttering of the lamp"
+      },
+      {
+        "id": "raps",
+        "display": "the raps"
+      },
+      {
+        "id": "touch",
+        "display": "the touch"
+      },
+      {
+        "id": "trumpet",
+        "display": "the spirit trumpet"
+      },
+      {
+        "id": "voice",
+        "display": "the whispered voice"
+      },
+      {
+        "id": "writing",
+        "display": "the spirit writing"
+      }
+    ]
+  },
+  "cast": [
+    {
+      "id": "cousin_r",
+      "display_name": "Cousin R",
+      "portrait": "/assets/cousin-r.jpg"
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "lamp",
+            "b": "voice"
+          },
+          "voiced": "The guttering of the lamp came before the whispered voice."
+        }
+      ]
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "cold",
+            "b": "raps",
+            "n": 3
+          },
+          "voiced": "Three manifestations passed between the cold draught and the raps."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "touch",
+            "b": "voice",
+            "n": 2
+          },
+          "voiced": "Two manifestations passed between the touch and the whispered voice."
+        }
+      ]
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "trumpet",
+            "b": "writing",
+            "n": 4
+          },
+          "voiced": "Four manifestations passed between the spirit trumpet and the spirit writing."
+        },
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "lamp",
+            "b": "cold"
+          },
+          "voiced": "The cold draught came hard upon the guttering of the lamp."
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "raps",
+            "b": "writing"
+          },
+          "voiced": "The spirit writing came hard upon the raps."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "raps",
+            "b": "writing"
+          },
+          "voiced": "The raps came before the spirit writing."
+        }
+      ]
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "cold",
+            "b": "voice",
+            "n": 3
+          },
+          "voiced": "Three manifestations passed between the cold draught and the whispered voice."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "cold",
+            "b": "trumpet",
+            "n": 4
+          },
+          "voiced": "Four manifestations passed between the cold draught and the spirit trumpet."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "trumpet",
+            "b": "raps"
+          },
+          "voiced": "The spirit trumpet came before the raps."
+        }
+      ]
+    }
+  ],
+  "victim": "cousin_r",
+  "answer_hashes": {
+    "solution": "9b6b80704d5b455a62788f54fc795efbf8836c002838b8122117ffdce8040058",
+    "killer": "1de8effef3d9136cfd796d6704e9e3514527701f1a0fdc17ca4202c83c070851",
+    "salt": "41647b3485a21034"
+  },
+  "reveal": {
+    "ledger_voiced": "The raps came from my knee against the table's leaf, twice and thrice as needed. The spirit writing was managed by exchanging the slates in the dark—chalk-crumb on my cuff bore witness to the work. The touch was a kid glove stuffed with wool, kept on the ice beforehand, pressed to skin when the moment called. The lamp's guttering I had arranged by trimming the wick short at six o'clock; it wanted ten minutes to fail entirely. The cold draught issued from the window cord, loosed an inch before the lamps went out. My own voice, thrown low, supplied the whispered words—grief hears what it is owed, and hears it gladly. The spirit trumpet moved by black silk thread and the reach of a practised arm.\n\nXerxes Hartfield murdered Cousin R. His hands were not in the circle that night; they were occupied elsewhere, doing work no apparatus of mine could claim. He had arranged the dark as a veil, but not for my effects. Cousin R was found past any sitting's reach, past any medium's power to summon back.\n\nThe dead say only what the living require them to say, and on this occasion, Xerxes required them to say nothing at all.",
+    "truth": {
+      "order": [
+        "the raps",
+        "the spirit writing",
+        "the touch",
+        "the guttering of the lamp",
+        "the cold draught",
+        "the whispered voice",
+        "the spirit trumpet"
+      ]
+    },
+    "killer_display": "Xerxes Hartfield",
+    "victim_display": "Cousin R"
+  }
+}
