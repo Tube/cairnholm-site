@@ -1,5 +1,15 @@
 [
   {
+    "number": 16,
+    "slug": "1886-07-18",
+    "title": "The Count at Cover's End",
+    "published": "2026-07-18",
+    "brief": false,
+    "victim": "quill",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260717_233257_592936_generated_lavinia-quill"
+  },
+  {
     "number": 15,
     "slug": "1886-07-17",
     "title": "The Fourth at Whist",
