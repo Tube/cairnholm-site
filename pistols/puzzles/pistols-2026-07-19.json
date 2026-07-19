@@ -1,0 +1,271 @@
+{
+  "id": "pistols-2026-07-19",
+  "difficulty": "introductory",
+  "table": {
+    "sides": [
+      6,
+      5
+    ],
+    "head": "cecil",
+    "foot": "memorial"
+  },
+  "cast": [
+    {
+      "id": "cecil",
+      "display_name": "Colonel Cecil Cruikshank",
+      "portrait": "/assets/pistols/cecil.jpg",
+      "short_name": "the Colonel"
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/pistols/nan.jpg",
+      "short_name": "Nan Pringle"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/pistols/xerxes.jpg",
+      "short_name": "Xerxes Hartfield"
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fenella \"Fifi\" Swain",
+      "portrait": "/assets/pistols/fifi.jpg",
+      "short_name": "Fifi Swain"
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/pistols/zane.jpg",
+      "short_name": "Zane Swain"
+    },
+    {
+      "id": "wat",
+      "display_name": "Captain Wat Frew",
+      "portrait": "/assets/pistols/wat.jpg",
+      "short_name": "Captain Wat Frew"
+    },
+    {
+      "id": "cousin_r",
+      "display_name": "Cousin R",
+      "portrait": "/assets/pistols/cousin_r.jpg",
+      "short_name": "Cousin R"
+    },
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/pistols/aziz.jpg",
+      "short_name": "Aziz"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/pistols/lavinia.jpg",
+      "short_name": "Lady Lavinia Loveless"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "Rev. Simeon Gaunt",
+      "portrait": "/assets/pistols/gaunt.jpg",
+      "short_name": "the Reverend Simeon Gaunt"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/pistols/quill.jpg",
+      "short_name": "Dr Tobias Quill"
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/pistols/effie.jpg",
+      "short_name": "Effie Strange"
+    }
+  ],
+  "victim": "wat",
+  "protocol": [
+    {
+      "id": "partners_left",
+      "text": "Business partners sit to the host's left unless under litigation.",
+      "restate": true
+    },
+    {
+      "id": "bishop_clause",
+      "text": "No lady is seated at the elbow of a guest with a loaded pistol unless she is widowed, titled, or has previously shot a bishop.",
+      "restate": true
+    },
+    {
+      "id": "kin_same_side",
+      "text": "Kin are seated upon the same side of the table, elder nearer the host.",
+      "restate": true
+    },
+    {
+      "id": "quarrel_salt",
+      "text": "A guest who has quarrelled with the host is seated \"below the salt\" (the seats nearest the foot).",
+      "restate": true
+    },
+    {
+      "id": "memorial_pistol",
+      "text": "The pistol at an empty place is laid, but never loaded.",
+      "restate": true
+    },
+    {
+      "id": "host_pistol",
+      "text": "The host's own pistol is always charged — a fixture of the table, and no threat to those who sit beside it.",
+      "restate": true
+    }
+  ],
+  "clues": [
+    {
+      "tokens": {
+        "type": "gun",
+        "guest": "wat",
+        "state": "charged"
+      },
+      "voiced": "Captain Wat Frew's pistol lay charged upon the table."
+    },
+    {
+      "tokens": {
+        "type": "hand_adjacent",
+        "anchor": "cecil",
+        "guest": "gaunt",
+        "hand": "right"
+      },
+      "voiced": "The Reverend Simeon Gaunt took his place upon the right hand of the Colonel."
+    },
+    {
+      "tokens": {
+        "type": "adjacent",
+        "a": "aziz",
+        "b": "gaunt"
+      },
+      "voiced": "Aziz found himself at the elbow of the Reverend Simeon Gaunt."
+    },
+    {
+      "tokens": {
+        "type": "between",
+        "a": "lavinia",
+        "b": "effie",
+        "c": "quill"
+      },
+      "voiced": "Effie Strange sat somewhere between Lady Lavinia Loveless and Dr Tobias Quill."
+    },
+    {
+      "tokens": {
+        "type": "hand_adjacent",
+        "anchor": "effie",
+        "guest": "lavinia",
+        "hand": "left"
+      },
+      "voiced": "Lady Lavinia Loveless occupied the seat upon the left hand of Effie Strange."
+    },
+    {
+      "tokens": {
+        "type": "hand_adjacent",
+        "anchor": "xerxes",
+        "guest": "cousin_r",
+        "hand": "left"
+      },
+      "voiced": "Cousin R was positioned upon the left hand of Xerxes Hartfield."
+    },
+    {
+      "tokens": {
+        "type": "nearer_host",
+        "nearer": "zane",
+        "farther": "lavinia"
+      },
+      "voiced": "Zane Swain proved no further from the host than Lady Lavinia Loveless."
+    },
+    {
+      "tokens": {
+        "type": "adjacent",
+        "a": "fifi",
+        "b": "zane"
+      },
+      "voiced": "Fifi Swain found herself beside Zane Swain."
+    },
+    {
+      "tokens": {
+        "type": "adjacent",
+        "a": "fifi",
+        "b": "nan"
+      },
+      "voiced": "Fifi Swain sat at the elbow of Nan Pringle."
+    }
+  ],
+  "answer_hashes": {
+    "arrangement": "d49f4c2817ac1b6e3b1cfae9e85ef3be4a7f8a7e4006a11a9c9ce5cfd64c5c2a",
+    "killer": "4142a50aebdb9e5818ad8a0b287f220fe94b758535a56b7f88f8c34915e436a1",
+    "salt": "9cff35ebedf7da7c"
+  },
+  "reveal": {
+    "brief_voiced": "Nan Pringle stands as the killer. The Colonel's protocol demands every place laid with a loaded pistol save those beside ladies; Nan Pringle herself occupied the fifth place upon the host's left, and by that rule Captain Wat Frew's place at the sixth should have been unloaded. Yet the pistol at his place was found charged. She sat within reach of that deviation, the length of the left side clear between them, and the geometry offered means and opportunity both.\n\nNan Pringle pours the tea and keeps the accounts—she misses nothing, least of all the Captain's elastic accounting. He owed money by half the company, debts that touch even a poor relation tasked with the ledgers. The records would show what he owed, and to whom. A woman who knows every secret of a house, who sees what others do not, who tends its books and its trust, sees also when that trust is broken.\n\nThe file closes with a quiet turn of the page.",
+    "diagram": {
+      "seating": {
+        "L1": {
+          "id": "xerxes",
+          "display_name": "Xerxes Hartfield"
+        },
+        "L2": {
+          "id": "cousin_r",
+          "display_name": "Cousin R"
+        },
+        "L3": {
+          "id": "zane",
+          "display_name": "Zane Swain"
+        },
+        "L4": {
+          "id": "fifi",
+          "display_name": "Fenella \"Fifi\" Swain"
+        },
+        "L5": {
+          "id": "nan",
+          "display_name": "Nan Pringle"
+        },
+        "L6": {
+          "id": "wat",
+          "display_name": "Captain Wat Frew"
+        },
+        "R1": {
+          "id": "gaunt",
+          "display_name": "Rev. Simeon Gaunt"
+        },
+        "R2": {
+          "id": "aziz",
+          "display_name": "Aziz"
+        },
+        "R3": {
+          "id": "lavinia",
+          "display_name": "Lady Lavinia Loveless"
+        },
+        "R4": {
+          "id": "effie",
+          "display_name": "Effie Strange"
+        },
+        "R5": {
+          "id": "quill",
+          "display_name": "Dr Tobias Quill"
+        }
+      },
+      "guns": {
+        "HEAD": "c",
+        "L1": "c",
+        "L2": "c",
+        "L3": "u",
+        "L4": "u",
+        "L5": "u",
+        "L6": "c",
+        "R1": "c",
+        "R2": "c",
+        "R3": "u",
+        "R4": "c",
+        "R5": "u",
+        "FOOT": "u"
+      },
+      "deviation_seat": "L6"
+    },
+    "killer_display": "Nan Pringle",
+    "victim_display": "Captain Wat Frew"
+  }
+}
