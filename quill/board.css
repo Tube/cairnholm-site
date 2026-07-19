@@ -1,0 +1,237 @@
+/* Dr. Quill's Cabinet — page styles (sepia estate palette, as its siblings) */
+
+:root {
+  --paper: #f2ead4;
+  --paper-dim: rgba(242, 234, 212, 0.6);
+  --ink: #2a2114;
+  --ink-soft: #5a4d38;
+  --accent: #6e2c1f;
+  --rule: rgba(42, 33, 20, 0.35);
+  --rule-soft: rgba(42, 33, 20, 0.18);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.page {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 18px 40px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hidden { display: none !important; }
+
+/* nav + masthead */
+.site-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 24px;
+  padding: 18px 4px 10px 4px;
+  border-bottom: 1px solid var(--rule);
+  font-family: 'IM Fell English SC', serif;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+}
+.site-nav a { color: var(--ink); text-decoration: none; opacity: 0.75; }
+.site-nav a.active, .site-nav a:hover { color: var(--accent); opacity: 1; }
+.site-nav span { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+
+.masthead { text-align: center; margin-top: 34px; }
+.masthead-kicker {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 15px;
+  letter-spacing: 0.22em;
+  color: var(--ink-soft);
+}
+.masthead h1 {
+  font-family: 'IM Fell English', serif;
+  font-weight: 400;
+  font-size: 46px;
+  margin: 6px 0 14px 0;
+}
+.standfirst {
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: 19px;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.hedera { font-size: 19px; margin: 18px 0 6px 0; color: var(--accent); }
+
+/* panels */
+.frame { width: 100%; max-width: 640px; margin-top: 8px; text-align: center; }
+.panel, .boardwrap {
+  width: 100%;
+  max-width: 640px;
+  margin-top: 30px;
+  border: 1px solid var(--rule);
+  background: var(--paper-dim);
+  padding: 20px 26px 24px 26px;
+}
+.panel h2, .boardwrap h2 {
+  font-family: 'IM Fell English SC', serif;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: 0.1em;
+  margin: 0 0 10px 0;
+  color: var(--accent);
+}
+.board-note { font-size: 16.5px; color: var(--ink-soft); }
+.board-note.question {
+  font-size: 18px;
+  font-style: italic;
+  color: var(--ink);
+  border-top: 1px solid var(--rule-soft);
+  padding-top: 12px;
+}
+.board-note.archive a { color: var(--accent); }
+.panel ol { margin: 8px 0 8px 0; padding-left: 26px; }
+.panel ol li { margin-bottom: 8px; }
+
+/* phial cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
+}
+.card {
+  border: 1px solid var(--rule-soft);
+  padding: 10px 8px 8px 8px;
+  text-align: center;
+  background: rgba(255, 252, 240, 0.5);
+}
+.card .glyph.big { font-size: 26px; color: var(--accent); }
+.card-title { font-family: 'IM Fell English SC', serif; font-size: 17px; }
+.card-sub { font-size: 14.5px; color: var(--ink-soft); }
+.card-temper {
+  margin-top: 4px;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.card.temper-hot .card-temper { color: var(--accent); }
+.card.temper-cold .card-temper { color: #3a4a63; }
+
+/* tray + board */
+.tray {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+  min-height: 44px;
+}
+.tray-empty { font-size: 15px; font-style: italic; color: var(--ink-soft); }
+.phial {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--rule);
+  background: rgba(255, 252, 240, 0.7);
+  padding: 6px 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.phial:hover { border-color: var(--accent); }
+.phial.selected { outline: 2px solid var(--accent); background: #fff8e4; }
+.phial .glyph { font-size: 19px; color: var(--accent); line-height: 1.1; }
+.phial-name { font-family: 'IM Fell English SC', serif; font-size: 15px; }
+.phial-sub { font-size: 12px; color: var(--ink-soft); }
+.phial.small { padding: 3px 10px; }
+.phial.small .glyph { font-size: 15px; }
+.phial.small .phial-sub { display: none; }
+
+.board { display: flex; flex-direction: column; gap: 6px; }
+.drawer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid var(--rule);
+  background: rgba(255, 252, 240, 0.4);
+  padding: 7px 14px;
+  cursor: pointer;
+  min-height: 46px;
+}
+.drawer:hover { border-color: var(--accent); }
+.drawer-label {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 16px;
+  width: 110px;
+  letter-spacing: 0.06em;
+}
+.slot-empty { color: var(--rule); }
+
+/* check + reveal */
+.checkrow { margin-top: 16px; display: flex; align-items: center; gap: 16px; }
+.btn {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+  color: var(--paper);
+  background: var(--accent);
+  border: none;
+  padding: 9px 20px;
+  cursor: pointer;
+}
+.btn:hover { background: #57241a; }
+.check-word { font-style: italic; font-size: 16px; }
+.check-word.right { color: #2c5233; }
+.check-word.wrong { color: var(--accent); }
+
+.reveal #note { font-size: 17.5px; }
+table.solution { margin-top: 14px; border-collapse: collapse; width: 100%; }
+table.solution td {
+  border-top: 1px solid var(--rule-soft);
+  padding: 6px 10px;
+  font-size: 16px;
+}
+table.solution tr.asked td {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+/* footer */
+.page-footer {
+  width: 100%;
+  max-width: 640px;
+  margin-top: 40px;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 14.5px;
+  color: var(--ink-soft);
+}
+.page-footer a { color: var(--accent); text-decoration: none; }
+.mud-footer {
+  width: 100%;
+  max-width: 720px;
+  margin-top: 48px;
+  text-align: center;
+  font-size: 14px;
+  color: #8a7d68;
+}
+.hedera-small { font-size: 17px; margin-bottom: 10px; }
+
+@media (max-width: 560px) {
+  body { font-size: 16.5px; }
+  .masthead h1 { font-size: 34px; }
+  .panel, .boardwrap { padding: 16px 14px 18px 14px; }
+  .drawer-label { width: 84px; font-size: 14px; }
+}

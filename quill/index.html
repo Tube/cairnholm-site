@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Quill&rsquo;s Cabinet &mdash; The Cairnholm Murder Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="32x32 16x16">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/favicon-256.png">
+<link rel="apple-touch-icon" href="/favicon-256.png">
+<link rel="stylesheet" href="board.css">
+</head>
+<body>
+<div class="page">
+
+  <nav class="site-nav">
+    <a href="/">To-day&rsquo;s Case</a>
+    <span>
+      <a href="/pistols/">The Pistols</a>
+      <a href="/vespers/">The Vespers</a>
+      <a href="/seance/">The S&eacute;ance</a>
+      <a href="/quill/" class="active">Quill&rsquo;s Cabinet</a>
+      <a href="/casebook/">The Casebook</a>
+    </span>
+  </nav>
+
+  <header class="masthead">
+    <div class="masthead-kicker">The Cairnholm Murder Club presents</div>
+    <h1>Dr. Quill&rsquo;s Cabinet</h1>
+    <p class="standfirst">Every Monday morning, before the week can commit its
+    first indiscretion, Dr. Quill stocks the seven day-drawers of his
+    apothecary cabinet with his seven planetary phials &mdash; by rules of his
+    own devising, and in an order he declines to write down. The ledger
+    records what the rules require; the reader supplies the rest. Pencil
+    recommended; coffee assumed.</p>
+    <div class="hedera">&#10086;</div>
+  </header>
+
+  <section id="frame" class="frame"></section>
+
+  <section class="panel" id="phials-panel">
+    <h2>The Phials</h2>
+    <p class="board-note">Seven phials, each sealed in its own wax and marked
+    with its planet and its metal. The label states each phial&rsquo;s temper
+    &mdash; hot, cold, or tempered &mdash; and Quill&rsquo;s tempers are not
+    open to dispute.</p>
+    <div id="phial-cards" class="cards"></div>
+  </section>
+
+  <section class="panel" id="ledger-panel">
+    <h2>The Ledger</h2>
+    <p class="board-note">The standing rules of the cabinet, in Quill&rsquo;s
+    hand:</p>
+    <ol id="frame-list"></ol>
+    <p class="board-note">And beneath, this week&rsquo;s particulars:</p>
+    <ol id="clue-list"></ol>
+    <p class="board-note question" id="question"></p>
+  </section>
+
+  <section class="boardwrap">
+    <h2>The Cabinet</h2>
+    <p class="board-note">Set each phial in its drawer: choose a phial from
+    the shelf, then touch a drawer to place it. Touch a placed phial to
+    return it to the shelf.</p>
+    <div id="tray" class="tray"></div>
+    <div id="board" class="board"></div>
+    <div class="checkrow">
+      <button id="check" class="btn">Submit the arrangement</button>
+      <span id="check-word" class="check-word"></span>
+    </div>
+  </section>
+
+  <section class="panel hidden reveal" id="reveal-panel">
+    <h2>Quill&rsquo;s Note</h2>
+    <div id="note"></div>
+    <div class="hedera">&#10086;</div>
+    <div id="solution-table"></div>
+  </section>
+
+  <footer class="page-footer">
+    <span class="tagline">Cairnholm.co.uk &mdash; the cabinet is stocked
+    weekly; the Club asks the reader&rsquo;s discretion in the meanwhile.</span>
+    <a href="/casebook/">The Casebook &rarr;</a>
+  </footer>
+
+  <div class="mud-footer">
+    <div class="hedera-small">&#10086;</div>
+    Looking for Cairnholm MUD? Connect your Telnet or MUD client to
+    <span style="white-space: nowrap">mud.cairnholm.co.uk:1886</span>
+  </div>
+
+</div>
+<script src="board.js"></script>
+</body>
+</html>
