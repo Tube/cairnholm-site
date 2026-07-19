@@ -1,5 +1,15 @@
 [
   {
+    "number": 17,
+    "slug": "1886-07-19",
+    "title": "The Colonel at the Foot of the Stair",
+    "published": "2026-07-19",
+    "brief": false,
+    "victim": "cecil",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260718_233003_545664_generated_xerxes-cecil"
+  },
+  {
     "number": 16,
     "slug": "1886-07-18",
     "title": "The Count at Cover's End",
