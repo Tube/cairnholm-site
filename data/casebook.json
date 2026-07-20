@@ -1,5 +1,15 @@
 [
   {
+    "number": 18,
+    "slug": "1886-07-20",
+    "title": "One Lump or Two",
+    "published": "2026-07-20",
+    "brief": false,
+    "victim": "lavinia",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260719_233002_617402_authored_nan-lavinia"
+  },
+  {
     "number": 17,
     "slug": "1886-07-19",
     "title": "The Colonel at the Foot of the Stair",
