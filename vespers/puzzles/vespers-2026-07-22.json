@@ -1,0 +1,249 @@
+{
+  "id": "vespers-2026-07-22",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg"
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "wat",
+      "display_name": "Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "aziz",
+        "display_name": "Aziz"
+      },
+      {
+        "id": "fifi",
+        "display_name": "Fifi Swain"
+      },
+      {
+        "id": "cecil",
+        "display_name": "the Colonel"
+      },
+      {
+        "id": "wat",
+        "display_name": "Wat Frew"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "xerxes",
+  "clues": [
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "fides",
+        "upon": "spes",
+        "window": "early"
+      },
+      "voiced": "Fides did not strike upon Spes early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "fides",
+        "upon": "caritas",
+        "window": "late"
+      },
+      "voiced": "Fides did not strike upon Caritas toward the end of the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "aziz",
+        "b": "wat"
+      },
+      "voiced": "Aziz stood across the circle from Wat Frew."
+    },
+    {
+      "tokens": {
+        "type": "greenest",
+        "person": "cecil"
+      },
+      "voiced": "The Colonel had never stood to a rope before that evening."
+    },
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "caritas",
+        "upon": "patientia",
+        "window": "early"
+      },
+      "voiced": "Caritas did not strike upon Patientia early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "spes",
+        "upon": "temperantia",
+        "window": "late"
+      },
+      "voiced": "Spes struck upon Temperantia toward the end of the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "bellamy",
+        "b": "fifi"
+      },
+      "voiced": "Captain Bellamy stood across the circle from Fifi Swain."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "bellamy",
+        "b": "wat"
+      },
+      "voiced": "Captain Bellamy had neighbouring ropes with Wat Frew."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "c60f14d350f8a3216bef7507b07f6a4105615063cd7084b803a220b9275c9b6b",
+    "ropes": "c7f47b8b53463b3e68be013569c6025f53088692f10f4cea4aa310d4551df495",
+    "killer": "3862ec04f6320d53b300be161f9f38a9cd309763caf40ca664244acdcd8ad5dc",
+    "salt": "9f7ed9a5ccd0ca26"
+  },
+  "reveal": {
+    "brief_voiced": "Fifi Swain rang Caritas, the third bell, and at the tenth change her hands left the rope. The touch had faltered once before—the Colonel's grip on Fides at the first change, a green hand's stumble that convicts nobody—but when Caritas fell out of true in the third minute, those hands were elsewhere, occupied with murder. The rope lay slack in her absence.\n\nFifi, a lady's-maid, hears more than a servant ought. Xerxes Hartfield was a gentleman of great fortune and few explanations, untroubled at any table. What she heard, what silence bought, what fortune stood between them, the tower keeps to itself. But her hands know when they held the rope, and when they did not.\n\nThe bell does not lie.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "241365",
+        "241635",
+        "426153",
+        "462513",
+        "645231",
+        "654321",
+        "563412",
+        "536142",
+        "351624",
+        "135264",
+        "132546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "cecil",
+        "2": "aziz",
+        "3": "fifi",
+        "4": "deas",
+        "5": "wat",
+        "6": "bellamy"
+      },
+      "flaw_row": 10,
+      "flaw_place": 1,
+      "innocent_row": 1,
+      "innocent_place": 2
+    },
+    "killer_display": "Fifi Swain",
+    "victim_display": "Xerxes Hartfield"
+  }
+}

@@ -249,7 +249,8 @@
     var dg = puzzle.reveal.diagram;
     var solved = dg.rows.map(function (s) { return s.split("").map(Number); });
     buildGrid("solution-grid", solved, false);
-    // outline the flawed row
+    // outline the flawed rows — the murder trip in oxblood; the excused
+    // stumble (two-stumble puzzles) dashed and paler
     var cells = $("solution-grid").children;
     var perRow = 7;                                   // label + six cells
     for (var i = 0; i < 6; i++) {
@@ -257,6 +258,13 @@
       if (cells[idx]) {
         cells[idx].style.outline = "2px solid #6e2c1f";
         cells[idx].style.outlineOffset = "-2px";
+      }
+      if (dg.innocent_row) {
+        var jdx = dg.innocent_row * perRow + 1 + i;
+        if (cells[jdx]) {
+          cells[jdx].style.outline = "2px dashed #8a7d68";
+          cells[jdx].style.outlineOffset = "-2px";
+        }
       }
     }
     var solvedRopes = {};
@@ -275,16 +283,30 @@
   function renderStatic(idx) {
     var ord = ORDINALS[idx + 1] || String(idx + 1);
     var victim = castById[puzzle.victim];
+    // new-model (two-stumble) puzzles carry no printed greenest hand
+    var twoStumble = !puzzle.attendance.greenest;
     $("frame").innerHTML =
       '<div class="masthead-kicker" style="letter-spacing:0.24em; ' +
       'font-style:normal; font-family:\'IM Fell English SC\',serif; ' +
       'color:#6e2c1f">Touch the ' + ord + "</div>" +
-      "<p>When the touch was done and the office read, " +
-      (victim ? victim.display_name : "one of the parish") +
-      " was found beyond the reach of any bell. The parish swears to what " +
-      "follows; the reader is asked to set down the rows as they were truly " +
-      "rung, to place every hand upon its rope, and then to say whose hands " +
-      "were, for a minute, nowhere at all.</p>";
+      (twoStumble
+        ? "<p>When the touch was done and the office read, " +
+          (victim ? victim.display_name : "one of the parish") +
+          " was found beyond the reach of any bell. The band faltered " +
+          "twice that evening, and twice came right. One stumble the tower " +
+          "forgives &mdash; a green hand&rsquo;s own trip, or one of its " +
+          "own men&rsquo;s, for the tower answers for its own. The other " +
+          "fell at a rope in practiced keeping, whose hands were, for a " +
+          "minute, not upon it. The parish swears to what follows; the " +
+          "reader is asked to set down the rows as they were truly rung, " +
+          "to place every hand upon its rope, and then to say whose " +
+          "stumble had no excuse.</p>"
+        : "<p>When the touch was done and the office read, " +
+          (victim ? victim.display_name : "one of the parish") +
+          " was found beyond the reach of any bell. The parish swears to what " +
+          "follows; the reader is asked to set down the rows as they were truly " +
+          "rung, to place every hand upon its rope, and then to say whose hands " +
+          "were, for a minute, nowhere at all.</p>");
 
     var ring = $("ring-list");
     ring.innerHTML = "";
@@ -320,11 +342,18 @@
     var ringers = puzzle.attendance.ringers.map(function (p) {
       return p.display_name;
     });
-    $("particulars").textContent =
+    var particulars =
       "The band, this week: " + ringers.join("; ") + " — with " +
       (castById[puzzle.attendance.captain] || {display_name: "the captain"}).display_name +
-      " at his own rope, as always. The greenest hand among them: " +
-      (castById[puzzle.attendance.greenest] || {}).display_name + ".";
+      " at his own rope, as always.";
+    if (puzzle.attendance.greenest) {
+      particulars += " The greenest hand among them: " +
+        (castById[puzzle.attendance.greenest] || {}).display_name + ".";
+    } else {
+      particulars += " Which of them had never stood to a rope before, " +
+        "the parish leaves the reader to discover.";
+    }
+    $("particulars").textContent = particulars;
 
     var clues = $("clue-list");
     clues.innerHTML = "";
