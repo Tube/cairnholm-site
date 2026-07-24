@@ -1,0 +1,210 @@
+{
+  "id": "seance-2026-07-24",
+  "mode": "message",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "D",
+        "display": "D"
+      },
+      {
+        "id": "G",
+        "display": "G"
+      },
+      {
+        "id": "I",
+        "display": "I"
+      },
+      {
+        "id": "N",
+        "display": "N"
+      },
+      {
+        "id": "O",
+        "display": "O"
+      },
+      {
+        "id": "T",
+        "display": "T"
+      }
+    ],
+    "word_lengths": [
+      3,
+      3
+    ]
+  },
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "cousin_r",
+      "display_name": "Cousin R",
+      "portrait": "/assets/cousin-r.jpg"
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "I",
+            "b": "O"
+          },
+          "voiced": "The I came before the O."
+        }
+      ]
+    },
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "D",
+            "b": "T",
+            "n": 4
+          },
+          "voiced": "Four letters passed between the D and the T."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "I",
+            "b": "N"
+          },
+          "voiced": "The I came before the N."
+        }
+      ]
+    },
+    {
+      "id": "cousin_r",
+      "display_name": "Cousin R",
+      "portrait": "/assets/cousin-r.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "N",
+            "b": "T",
+            "n": 1
+          },
+          "voiced": "One letter passed between the N and the T."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "D",
+            "b": "O"
+          },
+          "voiced": "The D came before the O."
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "T",
+            "b": "O"
+          },
+          "voiced": "The T came before the O."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "O",
+            "b": "T",
+            "n": 1
+          },
+          "voiced": "One letter passed between the O and the T."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "I",
+            "b": "N",
+            "n": 3
+          },
+          "voiced": "Three letters passed between the I and the N."
+        }
+      ]
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "I",
+            "b": "G"
+          },
+          "voiced": "The G came hard upon the I."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "I",
+            "b": "G"
+          },
+          "voiced": "The I came before the G."
+        }
+      ]
+    }
+  ],
+  "victim": "effie",
+  "answer_hashes": {
+    "solution": "db4c011432c25db479c3a56f2c3331d65c768ad7a0077dc5eeb2927b84b56b7f",
+    "killer": "bddf0b483493d742ed70082d97fd8513e966488104aba29773485748e8c908a7",
+    "salt": "51f4301378175fe9"
+  },
+  "reveal": {
+    "ledger_voiced": "I ran the glass as I have run it these twenty years—my hand beneath, my will the current, the letters dancing at my fingertips as the sitters breathed their terror into the dark. The message came as I shaped it: DIG NOT. Theatre, nothing more. The apparatus was my palm, my knowledge of their fears, the cold table and their hunger to hear from the dead. No spirit moved that glass but my own wrist.\n\nDr Tobias Quill sat with his hands upon the table, where I could see them plainly enough, yet his mind was elsewhere entirely. He had already done his work before the candles were lit—Effie Strange lay cold before we ever gathered to pretend she might speak from beyond. His invention was the darkness itself, and he trusted it as I trust my glass. He needed only the sitting to provide the alibi, the circle of witnesses, the sealed room of respectable confusion. I gave him all three.\n\nThe dead are obliging servants to those who mean to kill; they ask nothing of the living but that the living speak for them first.",
+    "truth": {
+      "message": "DIGNOT"
+    },
+    "killer_display": "Dr Tobias Quill",
+    "victim_display": "Effie Strange"
+  }
+}
