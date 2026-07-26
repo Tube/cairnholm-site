@@ -1,5 +1,15 @@
 [
   {
+    "number": 24,
+    "slug": "1886-07-26",
+    "title": "The Sunday Dinner at Hartfield House",
+    "published": "2026-07-26",
+    "brief": false,
+    "victim": "xerxes",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260725_233002_945655_generated_effie-xerxes"
+  },
+  {
     "number": 23,
     "slug": "1886-07-25",
     "title": "The Farewell Supper at Cruikshank Manor",
