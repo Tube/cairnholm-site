@@ -1,5 +1,15 @@
 [
   {
+    "number": 25,
+    "slug": "1886-07-27",
+    "title": "The Stifled Light",
+    "published": "2026-07-27",
+    "brief": false,
+    "victim": "fifi",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260727_000010_083842_authored_gaunt-fifi"
+  },
+  {
     "number": 24,
     "slug": "1886-07-26",
     "title": "The Sunday Dinner at Hartfield House",
