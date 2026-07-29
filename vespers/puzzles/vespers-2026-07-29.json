@@ -1,0 +1,241 @@
+{
+  "id": "vespers-2026-07-29",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "tolmie",
+      "display_name": "Hew Tolmie",
+      "portrait": null
+    },
+    {
+      "id": "wat",
+      "display_name": "Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "wat",
+        "display_name": "Wat Frew"
+      },
+      {
+        "id": "fifi",
+        "display_name": "Fifi Swain"
+      },
+      {
+        "id": "effie",
+        "display_name": "Effie Strange"
+      },
+      {
+        "id": "aziz",
+        "display_name": "Aziz"
+      },
+      {
+        "id": "tolmie",
+        "display_name": "Hew Tolmie"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "gaunt",
+  "clues": [
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "temperantia",
+        "upon": "caritas",
+        "window": "early"
+      },
+      "voiced": "Temperantia did not strike upon Caritas early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "aziz",
+        "b": "fifi"
+      },
+      "voiced": "Aziz stood across the circle from Fifi Swain."
+    },
+    {
+      "tokens": {
+        "type": "rope",
+        "person": "tolmie",
+        "rope": 2
+      },
+      "voiced": "Hew Tolmie took the second rope."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "fides",
+        "upon": "auld_roque",
+        "window": "late"
+      },
+      "voiced": "Fides struck upon Auld Roque toward the end of the touch."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "auld_roque",
+        "upon": "fides",
+        "window": "early"
+      },
+      "voiced": "Auld Roque struck upon Fides early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "tolmie",
+        "b": "wat"
+      },
+      "voiced": "Hew Tolmie had neighbouring ropes with Wat Frew."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "bellamy",
+        "b": "fifi"
+      },
+      "voiced": "Captain Bellamy had neighbouring ropes with Fifi Swain."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "f00555efcce8a8a5cccf2e57b1de52c9ba5c6765cc766605b7c6dd55be2369de",
+    "ropes": "e0ad4cf9bc6b616fa2bd1f060d2d766a8282a8c871f4c7d0da8f4ec79eacbf45",
+    "killer": "78f30115b5a81b3ce93c29958127e35d8bba45d63ca10d3c1ecf011b97882d83",
+    "salt": "f289b9185a3aa0f4"
+  },
+  "reveal": {
+    "brief_voiced": "Wat Frew rang Caritas, the third bell, at the second change—about the first minute of the touch. His hands left that rope in those seconds, and he was elsewhere when Caritas should have sounded true. Fifi Swain's trip on Fides at the ninth change convicts nobody; the green hand's own stumble is the tower's common toll. But a rope's silence at its moment of striking, when the ringer's hands are not there to hold it, speaks plainly. Wat Frew's hands were free to strike the Reverend Gaunt down.\n\nWat Frew owed money widely and carried accounts that would not bear scrutiny. The Reverend Gaunt, a man of rigid piety, kept his parish close and his judgment closer still. A debtor's shame before such a man, and the means to silence it, converged in the bell-tower's shadows.\n\nThe method held true everywhere else.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "241653",
+        "426153",
+        "462513",
+        "645231",
+        "654321",
+        "563412",
+        "536142",
+        "356124",
+        "315264",
+        "132546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "fifi",
+        "2": "tolmie",
+        "3": "wat",
+        "4": "aziz",
+        "5": "effie",
+        "6": "bellamy"
+      },
+      "flaw_row": 2,
+      "flaw_place": 5,
+      "innocent_row": 9,
+      "innocent_place": 3
+    },
+    "killer_display": "Wat Frew",
+    "victim_display": "the Reverend Simeon Gaunt"
+  }
+}
