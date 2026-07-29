@@ -1,5 +1,15 @@
 [
   {
+    "number": 27,
+    "slug": "1886-07-29",
+    "title": "The Fourth at Whist",
+    "published": "2026-07-29",
+    "brief": false,
+    "victim": "quill",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260728_233002_637496_generated_effie-quill"
+  },
+  {
     "number": 26,
     "slug": "1886-07-28",
     "title": "The Regimental Dinner at Cruikshank Manor",
