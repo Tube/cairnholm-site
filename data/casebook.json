@@ -4,7 +4,7 @@
     "slug": "1886-07-28",
     "title": "The Regimental Dinner at Cruikshank Manor",
     "published": "2026-07-28",
-    "brief": false,
+    "brief": true,
     "victim": "effie",
     "venue": "colonel_house",
     "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260727_234057_867284_generated_wat-effie"
