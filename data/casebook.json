@@ -1,5 +1,15 @@
 [
   {
+    "number": 28,
+    "slug": "1886-07-30",
+    "title": "Twenty Minutes of Darkness",
+    "published": "2026-07-30",
+    "brief": false,
+    "victim": "cousin_r",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260729_233002_782525_generated_gaunt-cousin_r"
+  },
+  {
     "number": 27,
     "slug": "1886-07-29",
     "title": "The Fourth at Whist",
