@@ -1,0 +1,259 @@
+{
+  "id": "seance-2026-07-31",
+  "mode": "debunker",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "cold",
+        "display": "the cold draught"
+      },
+      {
+        "id": "lamp",
+        "display": "the guttering of the lamp"
+      },
+      {
+        "id": "raps",
+        "display": "the raps"
+      },
+      {
+        "id": "touch",
+        "display": "the touch"
+      },
+      {
+        "id": "trumpet",
+        "display": "the spirit trumpet"
+      },
+      {
+        "id": "violets",
+        "display": "the scent of violets"
+      },
+      {
+        "id": "voice",
+        "display": "the whispered voice"
+      }
+    ],
+    "means": [
+      {
+        "id": "glove",
+        "display": "a stuffed glove"
+      },
+      {
+        "id": "knee",
+        "display": "her knee against the leaf"
+      },
+      {
+        "id": "phial",
+        "display": "a phial of scent"
+      },
+      {
+        "id": "thread",
+        "display": "a silk thread"
+      },
+      {
+        "id": "throw",
+        "display": "a thrown voice"
+      },
+      {
+        "id": "wick",
+        "display": "a trimmed wick"
+      }
+    ]
+  },
+  "cast": [
+    {
+      "id": "cousin_r",
+      "display_name": "Cousin R",
+      "portrait": "/assets/cousin-r.jpg"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "raps",
+            "means": "thread"
+          },
+          "voiced": "The raps was a silk thread's doing."
+        }
+      ]
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "lamp",
+            "means": "knee"
+          },
+          "voiced": "The guttering of the lamp was not her knee against the leaf's doing."
+        },
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "raps",
+            "means": "thread"
+          },
+          "voiced": "The raps was not a silk thread's doing."
+        },
+        {
+          "tokens": {
+            "type": "was_produced",
+            "item": "raps"
+          },
+          "voiced": "The raps was apparatus."
+        }
+      ]
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "touch",
+            "means": "thread"
+          },
+          "voiced": "The touch was not a silk thread's doing."
+        },
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "cold",
+            "means": "wick"
+          },
+          "voiced": "The cold draught was a trimmed wick's doing."
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "voice",
+            "means": "throw"
+          },
+          "voiced": "The whispered voice was a thrown voice's doing."
+        },
+        {
+          "tokens": {
+            "type": "unproduced",
+            "item": "trumpet"
+          },
+          "voiced": "Nothing of the medium's was at the spirit trumpet."
+        }
+      ]
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "touch",
+            "means": "phial"
+          },
+          "voiced": "The touch was not a phial of scent's doing."
+        },
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "lamp",
+            "means": "knee"
+          },
+          "voiced": "The guttering of the lamp was her knee against the leaf's doing."
+        }
+      ]
+    }
+  ],
+  "victim": "cousin_r",
+  "answer_hashes": {
+    "solution": "d72d17f28d8676c8b94535c72f458f9c76b82eca4315427043fb5e176c65ed7f",
+    "killer": "20ccf0ba91774e6c586b24d48069f5ab6c0154f9562f7c4616ba2449ce01a72d",
+    "salt": "e7900eaab89f96d3"
+  },
+  "reveal": {
+    "ledger_voiced": "The whispered voice came by my art of the thrown voice, pitched low and hollow as the sitters wished to hear it. The cold draught was nothing but a trimmed wick, the lamp guttering when my knee found the leaf of the table. The touch—a stuffed glove, worn beneath my sleeve and produced at the moment of maximum darkness. The raps were silk thread, drawn across the underside when attention wandered upward. The scent of violets, a phial decanted into the air at the séance's crescendo. One effect I did not produce: the spirit trumpet rang out of my direction entirely, and I did not care to know its source.\n\nThe Reverend Simeon Gaunt came to the sitting with murder already decided. His hands left the circle long before the lights failed—long enough to do what required doing to Cousin R. That cousin was found past any sitting's reach, past any medium's particular art. The Reverend's account of the dark was an invention sewn as carefully as my own, but his threads were murderous and mine merely mercenary.\n\nThe dead, I have always held, say precisely what it profits them to say; on this evening, it profited the Reverend Gaunt far more than it profited me.",
+    "truth": {
+      "pairs": [
+        [
+          "the cold draught",
+          "a trimmed wick"
+        ],
+        [
+          "the guttering of the lamp",
+          "her knee against the leaf"
+        ],
+        [
+          "the raps",
+          "a silk thread"
+        ],
+        [
+          "the touch",
+          "a stuffed glove"
+        ],
+        [
+          "the spirit trumpet",
+          null
+        ],
+        [
+          "the scent of violets",
+          "a phial of scent"
+        ],
+        [
+          "the whispered voice",
+          "a thrown voice"
+        ]
+      ]
+    },
+    "killer_display": "the Reverend Simeon Gaunt",
+    "victim_display": "Cousin R"
+  }
+}
