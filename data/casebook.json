@@ -4,7 +4,7 @@
     "slug": "1886-07-31",
     "title": "A Fixture of the Calendar",
     "published": "2026-07-31",
-    "brief": false,
+    "brief": true,
     "victim": "nan",
     "venue": "colonel_house",
     "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260730_233002_179856_generated_fifi-nan"
