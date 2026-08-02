@@ -4,7 +4,7 @@
     "slug": "1886-08-01",
     "title": "The Farewell Supper at Hartfield House",
     "published": "2026-08-01",
-    "brief": false,
+    "brief": true,
     "victim": "aziz",
     "venue": "xerxes_house",
     "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260731_233001_988772_generated_effie-aziz"
