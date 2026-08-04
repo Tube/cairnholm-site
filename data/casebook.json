@@ -1,5 +1,15 @@
 [
   {
+    "number": 33,
+    "slug": "1886-08-04",
+    "title": "The Cheetah on the Lawn",
+    "published": "2026-08-04",
+    "brief": false,
+    "victim": "gaunt",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260803_233003_496122_generated_zane-gaunt"
+  },
+  {
     "number": 32,
     "slug": "1886-08-03",
     "title": "The Birthday Knot",
