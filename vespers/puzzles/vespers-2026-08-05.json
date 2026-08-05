@@ -1,0 +1,237 @@
+{
+  "id": "vespers-2026-08-05",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg"
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "tolmie",
+      "display_name": "Hew Tolmie",
+      "portrait": null
+    },
+    {
+      "id": "wat",
+      "display_name": "Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "quill",
+        "display_name": "Dr Tobias Quill"
+      },
+      {
+        "id": "xerxes",
+        "display_name": "Xerxes Hartfield"
+      },
+      {
+        "id": "wat",
+        "display_name": "Wat Frew"
+      },
+      {
+        "id": "tolmie",
+        "display_name": "Hew Tolmie"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "cecil",
+  "clues": [
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "temperantia",
+        "upon": "fides",
+        "window": "late"
+      },
+      "voiced": "Temperantia did not strike upon Fides toward the end of the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "tolmie",
+        "b": "xerxes"
+      },
+      "voiced": "Hew Tolmie stood across the circle from Xerxes Hartfield."
+    },
+    {
+      "tokens": {
+        "type": "greenest",
+        "person": "wat"
+      },
+      "voiced": "Wat Frew had never stood to a rope before that evening."
+    },
+    {
+      "tokens": {
+        "type": "no_place",
+        "row": 11
+      },
+      "voiced": "No bell made her place at the eleventh change."
+    },
+    {
+      "tokens": {
+        "type": "window_leads",
+        "bell": "fides",
+        "window": "early"
+      },
+      "voiced": "Fides led early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "deas",
+        "b": "xerxes"
+      },
+      "voiced": "Obadiah Deas stood at a neighbouring rope to Xerxes Hartfield."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "wat",
+        "b": "xerxes"
+      },
+      "voiced": "Wat Frew stood at a neighbouring rope to Xerxes Hartfield."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "b7bc24427ab8be6c6ed2152634a7a62ce1852d471c9a953bb5634195c3a37ace",
+    "ropes": "e7ac0e6a2e83865af48df4efc2c54f1d416770edfeef864ffaa47e02442167a3",
+    "killer": "808ef9192ee2e7c1971ea0095ad63196493c5270a6b975074421d6518a28f9dd",
+    "salt": "3dd57a09a05049cb"
+  },
+  "reveal": {
+    "brief_voiced": "Xerxes Hartfield rang Spes, the second bell, and at the first change his rope fell silent. The green hand's trip at the tenth change—Wat Frew's stumble on Fides—convicts no one; a new ringer's fault is no fault at all. But Hartfield's silence at the outset admits no such excuse. His hands left the rope about the first minute of the touch, and in that absence the Colonel fell.\n\nThe Colonel's will lay unsettled, and Hartfield, a gentleman of great fortune, required no inheritance. Yet an unsettled will keeps others attentive—keeps them bound, keeps them waiting, keeps them subject to caprice. A man of few explanations and untroubled countenance has small patience for another man's fixed habits and choleric delays.\n\nThe rope tells what the ringer could not.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "124365",
+        "241635",
+        "426153",
+        "462513",
+        "645231",
+        "654321",
+        "563412",
+        "536142",
+        "351624",
+        "351264",
+        "132546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "wat",
+        "2": "xerxes",
+        "3": "deas",
+        "4": "quill",
+        "5": "tolmie",
+        "6": "bellamy"
+      },
+      "flaw_row": 1,
+      "flaw_place": 1,
+      "innocent_row": 10,
+      "innocent_place": 2
+    },
+    "killer_display": "Xerxes Hartfield",
+    "victim_display": "the Colonel"
+  }
+}
