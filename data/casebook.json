@@ -1,5 +1,15 @@
 [
   {
+    "number": 35,
+    "slug": "1886-08-06",
+    "title": "The Billiards Wager",
+    "published": "2026-08-06",
+    "brief": false,
+    "victim": "lavinia",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260805_233358_681630_generated_fifi-lavinia"
+  },
+  {
     "number": 34,
     "slug": "1886-08-05",
     "title": "The Laying Down of the Port",
