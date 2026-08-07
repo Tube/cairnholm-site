@@ -1,0 +1,217 @@
+{
+  "id": "seance-2026-08-07",
+  "mode": "testimony",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "cold",
+        "display": "the cold draught"
+      },
+      {
+        "id": "lamp",
+        "display": "the guttering of the lamp"
+      },
+      {
+        "id": "raps",
+        "display": "the raps"
+      },
+      {
+        "id": "tilt",
+        "display": "the table's tilt"
+      },
+      {
+        "id": "trumpet",
+        "display": "the spirit trumpet"
+      },
+      {
+        "id": "violets",
+        "display": "the scent of violets"
+      },
+      {
+        "id": "voice",
+        "display": "the whispered voice"
+      }
+    ]
+  },
+  "cast": [
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg"
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "wat",
+      "display_name": "Captain Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "lamp",
+            "b": "cold"
+          },
+          "voiced": "The guttering of the lamp came before the cold draught."
+        }
+      ]
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "lamp",
+            "b": "raps"
+          },
+          "voiced": "The guttering of the lamp came before the raps."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "lamp",
+            "b": "violets",
+            "n": 5
+          },
+          "voiced": "Five manifestations passed between the guttering of the lamp and the scent of violets."
+        }
+      ]
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "lamp",
+            "b": "raps"
+          },
+          "voiced": "The raps came hard upon the guttering of the lamp."
+        },
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "trumpet",
+            "b": "violets"
+          },
+          "voiced": "The scent of violets came hard upon the spirit trumpet."
+        }
+      ]
+    },
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "cold",
+            "b": "lamp",
+            "n": 2
+          },
+          "voiced": "Two manifestations passed between the cold draught and the guttering of the lamp."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "trumpet",
+            "b": "voice",
+            "n": 2
+          },
+          "voiced": "Two manifestations passed between the spirit trumpet and the whispered voice."
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "raps",
+            "b": "voice"
+          },
+          "voiced": "The raps came before the whispered voice."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "violets",
+            "b": "lamp"
+          },
+          "voiced": "The scent of violets came before the guttering of the lamp."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "voice",
+            "b": "trumpet"
+          },
+          "voiced": "The whispered voice came before the spirit trumpet."
+        }
+      ]
+    }
+  ],
+  "victim": "wat",
+  "answer_hashes": {
+    "solution": "353f0c915550d604be3f7f2f28f6d288fdfb6f5b9c19d2ab3040f5058aa047e2",
+    "killer": "1a46830f4f63149c32e53b2eb2ef83bfa5c7ea936011176018f5fcd486f83453",
+    "salt": "b4d92365c8f52822"
+  },
+  "reveal": {
+    "ledger_voiced": "From my book. The sitting ran as I ran it: the guttering of the lamp: a wick trimmed short at six o'clock; it wants ten minutes; the raps: my knee against the table's leaf, twice and thrice; the whispered voice: my own voice, thrown low; grief hears what it is owed; the cold draught: the window cord, loosed an inch before the lamps went out; the table's tilt: the wedge of my boot beneath the claw-foot; the spirit trumpet: black silk thread, and the reach of a practised arm; the scent of violets: a phial in my left sleeve; the right was held.\n\nAs to the evening's business: the account Dr Tobias Quill swore to was an invention, for those hands were out of the dark and about their own work. Captain Wat Frew was past any sitting's reach before the lamps were lit.\n\nThe dead say what it profits me they say; on this occasion they profited Dr Tobias Quill more.",
+    "truth": {
+      "order": [
+        "the guttering of the lamp",
+        "the raps",
+        "the whispered voice",
+        "the cold draught",
+        "the table's tilt",
+        "the spirit trumpet",
+        "the scent of violets"
+      ]
+    },
+    "killer_display": "Dr Tobias Quill",
+    "victim_display": "Captain Wat Frew"
+  }
+}
