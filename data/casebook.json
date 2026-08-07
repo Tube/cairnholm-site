@@ -1,5 +1,15 @@
 [
   {
+    "number": 36,
+    "slug": "1886-08-07",
+    "title": "The Orchid Gala at Hartfield House",
+    "published": "2026-08-07",
+    "brief": false,
+    "victim": "aziz",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260806_233002_301851_generated_quill-aziz"
+  },
+  {
     "number": 35,
     "slug": "1886-08-06",
     "title": "The Billiards Wager",
