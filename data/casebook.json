@@ -1,5 +1,15 @@
 [
   {
+    "number": 37,
+    "slug": "1886-08-08",
+    "title": "The Farewell Supper at Cruikshank Manor",
+    "published": "2026-08-08",
+    "brief": false,
+    "victim": "nan",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260807_233002_986554_generated_lavinia-nan"
+  },
+  {
     "number": 36,
     "slug": "1886-08-07",
     "title": "The Orchid Gala at Hartfield House",
