@@ -1,0 +1,144 @@
+{
+  "id": "quill-2026-08-10",
+  "difficulty": "proper",
+  "phials": [
+    {
+      "id": "mars",
+      "planet": "Mars",
+      "symbol": "&#9794;",
+      "metal": "iron",
+      "seal": "Crimson",
+      "temper": "hot"
+    },
+    {
+      "id": "sun",
+      "planet": "Sun",
+      "symbol": "&#9737;",
+      "metal": "gold",
+      "seal": "Amber",
+      "temper": "hot"
+    },
+    {
+      "id": "jupiter",
+      "planet": "Jupiter",
+      "symbol": "&#9795;",
+      "metal": "tin",
+      "seal": "Ochre",
+      "temper": "hot"
+    },
+    {
+      "id": "moon",
+      "planet": "Moon",
+      "symbol": "&#9789;",
+      "metal": "silver",
+      "seal": "Ultramarine",
+      "temper": "cold"
+    },
+    {
+      "id": "saturn",
+      "planet": "Saturn",
+      "symbol": "&#9796;",
+      "metal": "lead",
+      "seal": "Lead-white",
+      "temper": "cold"
+    },
+    {
+      "id": "mercury",
+      "planet": "Mercury",
+      "symbol": "&#9791;",
+      "metal": "quicksilver",
+      "seal": "Bone",
+      "temper": "cold"
+    },
+    {
+      "id": "venus",
+      "planet": "Venus",
+      "symbol": "&#9792;",
+      "metal": "copper",
+      "seal": "Verdigris",
+      "temper": "tempered"
+    }
+  ],
+  "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+  ],
+  "frame": [
+    "The week runs downward: Monday's drawer at the top, Sunday's at the bottom.",
+    "The cabinet keeps its equilibrium: at every equal remove above and below the middle drawer, a hot seal answers a cold.",
+    "No phial abides beside its contrary: the Sun and the Moon, Mars and Venus, Mercury and Jupiter may not keep neighbouring drawers."
+  ],
+  "clues": [
+    {
+      "id": "adjacent:mars,saturn",
+      "text": "The iron and the lead keep neighbouring drawers."
+    },
+    {
+      "id": "keeps:mercury,7",
+      "text": "The Bone keeps Sunday's drawer."
+    },
+    {
+      "id": "above:sun,jupiter",
+      "text": "Gold outshines tin."
+    }
+  ],
+  "question": "What waits in Saturday's drawer?",
+  "answer_hashes": {
+    "arrangement": "c6c8c5652746aae83f90042ff989115f471787b512c8f0ab2c37aa3732a9af5f",
+    "asked": "fa702b4295f4cfa7ab8cf42e8ceacf8e7c6221ab280a97b5fe1741d4fc042015",
+    "salt": "3e31cd1d79b94b02"
+  },
+  "reveal": {
+    "arrangement": {
+      "Monday": {
+        "id": "sun",
+        "planet": "Sun",
+        "seal": "Amber",
+        "metal": "gold"
+      },
+      "Tuesday": {
+        "id": "mars",
+        "planet": "Mars",
+        "seal": "Crimson",
+        "metal": "iron"
+      },
+      "Wednesday": {
+        "id": "saturn",
+        "planet": "Saturn",
+        "seal": "Lead-white",
+        "metal": "lead"
+      },
+      "Thursday": {
+        "id": "venus",
+        "planet": "Venus",
+        "seal": "Verdigris",
+        "metal": "copper"
+      },
+      "Friday": {
+        "id": "jupiter",
+        "planet": "Jupiter",
+        "seal": "Ochre",
+        "metal": "tin"
+      },
+      "Saturday": {
+        "id": "moon",
+        "planet": "Moon",
+        "seal": "Ultramarine",
+        "metal": "silver"
+      },
+      "Sunday": {
+        "id": "mercury",
+        "planet": "Mercury",
+        "seal": "Bone",
+        "metal": "quicksilver"
+      }
+    },
+    "asked_day": "Saturday",
+    "note": "So the cabinet stood, and stands: Monday, the Amber (Sun); Tuesday, the Crimson (Mars); Wednesday, the Lead-white (Saturn); Thursday, the Verdigris (Venus); Friday, the Ochre (Jupiter); Saturday, the Ultramarine (Moon); Sunday, the Bone (Mercury). And Saturday's drawer held the Ultramarine — silver, Moon's metal. The cabinet keeps its own order; the almanac may see to its own."
+  }
+}
