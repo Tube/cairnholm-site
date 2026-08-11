@@ -1,5 +1,15 @@
 [
   {
+    "number": 40,
+    "slug": "1886-08-11",
+    "title": "The Unlit Half of the Room",
+    "published": "2026-08-11",
+    "brief": false,
+    "victim": "cousin_r",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260810_233003_119281_generated_quill-cousin_r"
+  },
+  {
     "number": 39,
     "slug": "1886-08-10",
     "title": "The Count at Cruikshank Manor",
