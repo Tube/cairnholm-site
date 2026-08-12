@@ -1,5 +1,15 @@
 [
   {
+    "number": 41,
+    "slug": "1886-08-12",
+    "title": "The Moorish Table",
+    "published": "2026-08-12",
+    "brief": false,
+    "victim": "wat",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260811_233003_382864_generated_xerxes-wat"
+  },
+  {
     "number": 40,
     "slug": "1886-08-11",
     "title": "The Unlit Half of the Room",
