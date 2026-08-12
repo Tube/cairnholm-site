@@ -1,0 +1,250 @@
+{
+  "id": "vespers-2026-08-12",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "tolmie",
+      "display_name": "Hew Tolmie",
+      "portrait": null
+    },
+    {
+      "id": "wat",
+      "display_name": "Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "zane",
+        "display_name": "Zane Swain"
+      },
+      {
+        "id": "aziz",
+        "display_name": "Aziz"
+      },
+      {
+        "id": "wat",
+        "display_name": "Wat Frew"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      },
+      {
+        "id": "tolmie",
+        "display_name": "Hew Tolmie"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "lavinia",
+  "clues": [
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "patientia",
+        "upon": "spes",
+        "window": "early"
+      },
+      "voiced": "Patientia did not strike upon Spes early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "caritas",
+        "upon": "fides",
+        "window": "late"
+      },
+      "voiced": "Caritas did not strike upon Fides toward the end of the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "wat",
+        "b": "zane"
+      },
+      "voiced": "Wat Frew stood across the circle from Zane Swain."
+    },
+    {
+      "tokens": {
+        "type": "rope",
+        "person": "tolmie",
+        "rope": 5
+      },
+      "voiced": "Hew Tolmie took the fifth rope."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "auld_roque",
+        "upon": "fides",
+        "window": "early"
+      },
+      "voiced": "Early in the touch, Auld Roque struck upon Fides."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "temperantia",
+        "upon": "spes",
+        "window": "late"
+      },
+      "voiced": "Toward the end of the touch, Temperantia struck upon Spes."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "deas",
+        "b": "zane"
+      },
+      "voiced": "Obadiah Deas and Zane Swain took neighbouring ropes."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "tolmie",
+        "b": "zane"
+      },
+      "voiced": "Hew Tolmie and Zane Swain took neighbouring ropes."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "240685eb9d58b84836404e7707de1dd8c87b4154689b27c7d598d5b7e9838378",
+    "ropes": "87b3205f80ac26d5e6b5c69e6545f45b89b74e42a897c0a102e8050c0f5468f1",
+    "killer": "091a8b19314148a84b5b0c9b6665a38dc0b7b6c4dc73bb4d3407db3bcca4827b",
+    "salt": "ff37dfff6ceed05b"
+  },
+  "reveal": {
+    "brief_voiced": "The killer was Aziz. The touch faltered twice. Fides tripped about the third minute of the touch; the green hand's own trip — a new hand's stumble convicts nobody, and the tower thinks no worse of it. But Spes hung late where the method wanted her elsewhere, and no custom excuses it; that rope was in Aziz's keeping, and the hands that should have held it were free about the first minute of the touch. Lady Lavinia Loveless did not survive the office.\n\nAs to the why of it: Of Aziz, the playbill says: Aziz — Xerxes's companion, constant at his side; a fixture no one enquires into. Of Lady Lavinia Loveless: Lady Lavinia Loveless — a faded actress turned medium; apt to let people rather too close.\n\nThe tower proved every pair of hands but one.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "421635",
+        "426153",
+        "462513",
+        "645231",
+        "654321",
+        "563412",
+        "536142",
+        "351624",
+        "315264",
+        "312546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "wat",
+        "2": "aziz",
+        "3": "deas",
+        "4": "zane",
+        "5": "tolmie",
+        "6": "bellamy"
+      },
+      "flaw_row": 2,
+      "flaw_place": 1,
+      "innocent_row": 11,
+      "innocent_place": 1
+    },
+    "killer_display": "Aziz",
+    "victim_display": "Lady Lavinia Loveless"
+  }
+}
