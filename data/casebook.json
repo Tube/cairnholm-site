@@ -1,5 +1,15 @@
 [
   {
+    "number": 42,
+    "slug": "1886-08-13",
+    "title": "The Viewing at Hartfield House",
+    "published": "2026-08-13",
+    "brief": false,
+    "victim": "gaunt",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260812_233003_405875_generated_cousin_r-gaunt"
+  },
+  {
     "number": 41,
     "slug": "1886-08-12",
     "title": "The Moorish Table",
