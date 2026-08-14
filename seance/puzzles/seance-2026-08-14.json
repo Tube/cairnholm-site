@@ -1,0 +1,208 @@
+{
+  "id": "seance-2026-08-14",
+  "mode": "message",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "D",
+        "display": "D"
+      },
+      {
+        "id": "G",
+        "display": "G"
+      },
+      {
+        "id": "I",
+        "display": "I"
+      },
+      {
+        "id": "N",
+        "display": "N"
+      },
+      {
+        "id": "O",
+        "display": "O"
+      },
+      {
+        "id": "T",
+        "display": "T"
+      }
+    ],
+    "word_lengths": [
+      3,
+      3
+    ]
+  },
+  "cast": [
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "first",
+            "a": "D"
+          },
+          "voiced": "The D came first."
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "I",
+            "b": "T",
+            "n": 3
+          },
+          "voiced": "Three letters passed between the I and the T."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "G",
+            "b": "T"
+          },
+          "voiced": "The G came before the T."
+        }
+      ]
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "N",
+            "b": "O",
+            "n": 1
+          },
+          "voiced": "One letter passed between the N and the O."
+        },
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "D",
+            "b": "N"
+          },
+          "voiced": "The N came hard upon the D."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "G",
+            "b": "O"
+          },
+          "voiced": "The G came before the O."
+        }
+      ]
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "I",
+            "b": "G"
+          },
+          "voiced": "The G came hard upon the I."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "N",
+            "b": "T",
+            "n": 1
+          },
+          "voiced": "One letter passed between the N and the T."
+        }
+      ]
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "N",
+            "b": "O"
+          },
+          "voiced": "The O came hard upon the N."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "N",
+            "b": "T"
+          },
+          "voiced": "The N came before the T."
+        }
+      ]
+    }
+  ],
+  "victim": "xerxes",
+  "answer_hashes": {
+    "solution": "5b3d8bacb9d7c094dc201724808390ada6fd069e06660ff90006fe5982ea9e9b",
+    "killer": "5faf5a1125eadce1480516cf12978e6b9027aca60d8af6e540f7929212695567",
+    "salt": "27e042a0b5847b0b"
+  },
+  "reveal": {
+    "ledger_voiced": "From my book. The sitting ran as I ran it: the glass, and my hand upon it, as ever. The glass spelled DIG NOT; the glass goes where I send it.\n\nAs to the evening's business: the account the Reverend Simeon Gaunt swore to was an invention, for those hands were out of the dark and about their own work. Xerxes Hartfield was past any sitting's reach before the lamps were lit.\n\nThe dead say what it profits me they say; on this occasion they profited the Reverend Simeon Gaunt more.",
+    "truth": {
+      "message": "DIGNOT"
+    },
+    "killer_display": "the Reverend Simeon Gaunt",
+    "victim_display": "Xerxes Hartfield"
+  }
+}
