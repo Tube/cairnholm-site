@@ -4,7 +4,7 @@
     "slug": "1886-08-14",
     "title": "The Long Exposure at Hartfield House",
     "published": "2026-08-14",
-    "brief": false,
+    "brief": true,
     "victim": "xerxes",
     "venue": "xerxes_house",
     "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260813_233002_944081_generated_lavinia-xerxes"
