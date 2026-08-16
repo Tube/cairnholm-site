@@ -1,5 +1,15 @@
 [
   {
+    "number": 45,
+    "slug": "1886-08-16",
+    "title": "The Sunday Study",
+    "published": "2026-08-16",
+    "brief": false,
+    "victim": "nan",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260815_055728_543385_generated_cousin_r-nan"
+  },
+  {
     "number": 44,
     "slug": "1886-08-15",
     "title": "The Moorish Dinner",
