@@ -1,5 +1,15 @@
 [
   {
+    "number": 46,
+    "slug": "1886-08-17",
+    "title": "The Lantern Lecture at Cruikshank Manor",
+    "published": "2026-08-17",
+    "brief": false,
+    "victim": "cecil",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260816_233003_230491_generated_nan-cecil"
+  },
+  {
     "number": 45,
     "slug": "1886-08-16",
     "title": "The Sunday Study",
