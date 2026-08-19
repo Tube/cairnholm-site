@@ -1,0 +1,240 @@
+{
+  "id": "vespers-2026-08-19",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg"
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "tolmie",
+      "display_name": "Hew Tolmie",
+      "portrait": null
+    },
+    {
+      "id": "wat",
+      "display_name": "Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "quill",
+        "display_name": "Dr Tobias Quill"
+      },
+      {
+        "id": "cecil",
+        "display_name": "the Colonel"
+      },
+      {
+        "id": "wat",
+        "display_name": "Wat Frew"
+      },
+      {
+        "id": "tolmie",
+        "display_name": "Hew Tolmie"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "fifi",
+  "clues": [
+    {
+      "tokens": {
+        "type": "window_lies_behind",
+        "bell": "fides",
+        "window": "early"
+      },
+      "voiced": "Early in the touch, Fides lay behind."
+    },
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "patientia",
+        "upon": "temperantia",
+        "window": "late"
+      },
+      "voiced": "Patientia did not strike upon Temperantia toward the end of the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "cecil",
+        "b": "wat"
+      },
+      "voiced": "the Colonel stood across the circle from Wat Frew."
+    },
+    {
+      "tokens": {
+        "type": "rope",
+        "person": "quill",
+        "rope": 2
+      },
+      "voiced": "Dr Tobias Quill took the second rope."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "temperantia",
+        "upon": "spes",
+        "window": "late"
+      },
+      "voiced": "Toward the end of the touch, Temperantia struck upon Spes."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "deas",
+        "b": "wat"
+      },
+      "voiced": "Obadiah Deas and Wat Frew took neighbouring ropes."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "bellamy",
+        "b": "tolmie"
+      },
+      "voiced": "Captain Bellamy and Hew Tolmie took neighbouring ropes."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "44d6d602f8a560ec4bdfdb36473c6676a6493d734136440001a2ab19983ef816",
+    "ropes": "b51f433674e10038ba7aca22c0e5e69f36049f7d50867bb218d1b2abbfd33954",
+    "killer": "336cd54ad1f6e4afedc50c795bd8c7e1e21a672e96051ffac0053c34f1b25b47",
+    "salt": "3423104c73e536f4"
+  },
+  "reveal": {
+    "brief_voiced": "The killer was Wat Frew. The touch faltered twice. Fides tripped about the first minute of the touch; the green hand's own trip — a new hand's stumble convicts nobody, and the tower thinks no worse of it. But Patientia hung late where the method wanted her elsewhere, and no custom excuses it; that rope was in Wat Frew's keeping, and the hands that should have held it were free about the third minute of the touch. Fifi Swain did not survive the office.\n\nAs to the why of it: Of Wat Frew, the playbill says: Captain Wat Frew — a sea-captain of elastic accounts; owed money by half the company. Of Fifi Swain: Fenella \"Fifi\" Swain — a lady's-maid, twin to Zane; hears more than a servant ought.\n\nThe tower proved every pair of hands but one.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "241635",
+        "426153",
+        "462531",
+        "645231",
+        "654321",
+        "563412",
+        "536142",
+        "351624",
+        "315264",
+        "132564",
+        "123456"
+      ],
+      "ropes": {
+        "1": "cecil",
+        "2": "quill",
+        "3": "deas",
+        "4": "wat",
+        "5": "tolmie",
+        "6": "bellamy"
+      },
+      "flaw_row": 11,
+      "flaw_place": 5,
+      "innocent_row": 4,
+      "innocent_place": 5
+    },
+    "killer_display": "Wat Frew",
+    "victim_display": "Fifi Swain"
+  }
+}
