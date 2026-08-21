@@ -1,0 +1,266 @@
+{
+  "id": "seance-2026-08-21",
+  "mode": "debunker",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "cold",
+        "display": "the cold draught"
+      },
+      {
+        "id": "raps",
+        "display": "the raps"
+      },
+      {
+        "id": "tilt",
+        "display": "the table's tilt"
+      },
+      {
+        "id": "trumpet",
+        "display": "the spirit trumpet"
+      },
+      {
+        "id": "violets",
+        "display": "the scent of violets"
+      },
+      {
+        "id": "voice",
+        "display": "the whispered voice"
+      },
+      {
+        "id": "writing",
+        "display": "the spirit writing"
+      }
+    ],
+    "means": [
+      {
+        "id": "boot",
+        "display": "the wedge of a boot"
+      },
+      {
+        "id": "cord",
+        "display": "the window cord"
+      },
+      {
+        "id": "phial",
+        "display": "a phial of scent"
+      },
+      {
+        "id": "slate",
+        "display": "a changed slate"
+      },
+      {
+        "id": "throw",
+        "display": "a thrown voice"
+      },
+      {
+        "id": "wick",
+        "display": "a trimmed wick"
+      }
+    ]
+  },
+  "cast": [
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg"
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "tilt",
+            "means": "throw"
+          },
+          "voiced": "The table's tilt was not a thrown voice's doing."
+        }
+      ]
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "raps",
+            "means": "boot"
+          },
+          "voiced": "The raps was the wedge of a boot's doing."
+        },
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "tilt",
+            "means": "wick"
+          },
+          "voiced": "The table's tilt was a trimmed wick's doing."
+        }
+      ]
+    },
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "trumpet",
+            "means": "phial"
+          },
+          "voiced": "The spirit trumpet was not a phial of scent's doing."
+        },
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "writing",
+            "means": "slate"
+          },
+          "voiced": "The spirit writing was a changed slate's doing."
+        },
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "voice",
+            "means": "throw"
+          },
+          "voiced": "The whispered voice was a thrown voice's doing."
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "was_produced",
+            "item": "writing"
+          },
+          "voiced": "The spirit writing was apparatus, whatever else it was."
+        },
+        {
+          "tokens": {
+            "type": "unproduced",
+            "item": "tilt"
+          },
+          "voiced": "Nothing of the medium's was at the table's tilt."
+        },
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "trumpet",
+            "means": "wick"
+          },
+          "voiced": "The spirit trumpet was not a trimmed wick's doing."
+        }
+      ]
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "raps",
+            "means": "throw"
+          },
+          "voiced": "The raps was not a thrown voice's doing."
+        },
+        {
+          "tokens": {
+            "type": "unproduced",
+            "item": "violets"
+          },
+          "voiced": "Nothing of the medium's was at the scent of violets."
+        }
+      ]
+    }
+  ],
+  "victim": "effie",
+  "answer_hashes": {
+    "solution": "8064189d7da3465864decce59c13b6ef903ab8de004e3048ff2644dc3af0a1c7",
+    "killer": "89dd86ce917c622532601590b49324dad91ab72764eaa68af97660a45603433d",
+    "salt": "560060711b0c60ba"
+  },
+  "reveal": {
+    "ledger_voiced": "From my book. The sitting ran as I ran it: the whispered voice: a thrown voice; the cold draught: a phial of scent; the spirit writing: a changed slate; the table's tilt: a trimmed wick; the raps: the wedge of a boot; the spirit trumpet: the window cord. The scent of violets I did not produce, and did not care for.\n\nAs to the evening's business: the account Dr Tobias Quill swore to was an invention, for those hands were out of the dark and about their own work. Effie Strange was past any sitting's reach before the lamps were lit.\n\nThe dead say what it profits me they say; on this occasion they profited Dr Tobias Quill more.",
+    "truth": {
+      "pairs": [
+        [
+          "the cold draught",
+          "a phial of scent"
+        ],
+        [
+          "the raps",
+          "the wedge of a boot"
+        ],
+        [
+          "the table's tilt",
+          "a trimmed wick"
+        ],
+        [
+          "the spirit trumpet",
+          "the window cord"
+        ],
+        [
+          "the scent of violets",
+          null
+        ],
+        [
+          "the whispered voice",
+          "a thrown voice"
+        ],
+        [
+          "the spirit writing",
+          "a changed slate"
+        ]
+      ]
+    },
+    "killer_display": "Dr Tobias Quill",
+    "victim_display": "Effie Strange"
+  }
+}
