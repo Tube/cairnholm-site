@@ -1,5 +1,15 @@
 [
   {
+    "number": 51,
+    "slug": "1886-08-22",
+    "title": "The Laying Down of the Port",
+    "published": "2026-08-22",
+    "brief": false,
+    "victim": "cousin_r",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260821_000103_211736_generated_gaunt-cousin_r"
+  },
+  {
     "number": 50,
     "slug": "1886-08-21",
     "title": "The Composed Maid",
