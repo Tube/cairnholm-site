@@ -1,5 +1,15 @@
 [
   {
+    "number": 52,
+    "slug": "1886-08-23",
+    "title": "The Sunday Corridor",
+    "published": "2026-08-23",
+    "brief": false,
+    "victim": "nan",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260822_233003_437134_generated_fifi-nan"
+  },
+  {
     "number": 51,
     "slug": "1886-08-22",
     "title": "The Laying Down of the Port",
