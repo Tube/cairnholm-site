@@ -1,5 +1,15 @@
 [
   {
+    "number": 53,
+    "slug": "1886-08-24",
+    "title": "The Lantern Lecture at Cruikshank Manor",
+    "published": "2026-08-24",
+    "brief": false,
+    "victim": "zane",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260823_233003_572506_generated_cecil-zane"
+  },
+  {
     "number": 52,
     "slug": "1886-08-23",
     "title": "The Sunday Corridor",
