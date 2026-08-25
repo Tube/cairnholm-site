@@ -1,5 +1,15 @@
 [
   {
+    "number": 54,
+    "slug": "1886-08-25",
+    "title": "The Orchid Hour",
+    "published": "2026-08-25",
+    "brief": false,
+    "victim": "wat",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260824_233003_427744_generated_fifi-wat"
+  },
+  {
     "number": 53,
     "slug": "1886-08-24",
     "title": "The Lantern Lecture at Cruikshank Manor",
