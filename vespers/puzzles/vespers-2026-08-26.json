@@ -1,0 +1,232 @@
+{
+  "id": "vespers-2026-08-26",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "tolmie",
+      "display_name": "Hew Tolmie",
+      "portrait": null
+    },
+    {
+      "id": "wat",
+      "display_name": "Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "lavinia",
+        "display_name": "Lady Lavinia Loveless"
+      },
+      {
+        "id": "gaunt",
+        "display_name": "the Reverend Simeon Gaunt"
+      },
+      {
+        "id": "zane",
+        "display_name": "Zane Swain"
+      },
+      {
+        "id": "aziz",
+        "display_name": "Aziz"
+      },
+      {
+        "id": "tolmie",
+        "display_name": "Hew Tolmie"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "wat",
+  "clues": [
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "spes",
+        "upon": "fides",
+        "window": "middle"
+      },
+      "voiced": "Spes did not strike upon Fides about the middle of the touch."
+    },
+    {
+      "tokens": {
+        "type": "window_lies_behind",
+        "bell": "spes",
+        "window": "late"
+      },
+      "voiced": "Toward the end of the touch, Spes lay behind."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "lavinia",
+        "b": "tolmie"
+      },
+      "voiced": "Lady Lavinia Loveless stood across the circle from Hew Tolmie."
+    },
+    {
+      "tokens": {
+        "type": "rope",
+        "person": "aziz",
+        "rope": 5
+      },
+      "voiced": "Aziz took the fifth rope."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "patientia",
+        "upon": "caritas",
+        "window": "middle"
+      },
+      "voiced": "About the middle of the touch, Patientia struck upon Caritas."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "aziz",
+        "b": "zane"
+      },
+      "voiced": "Aziz stood across the circle from Zane Swain."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "32e65ed379da8beac4e4595b4566378305f0141c2ac87b1af0f36f45851035ae",
+    "ropes": "51a1268ede4c7c81ef86b3e0c1b9582655dcde2c3743495cb67437af4cf6a55d",
+    "killer": "98fbd3706ac5c8ebad5560bc3761cce01f74959e50286e3beeb19773ac2b0582",
+    "salt": "00032a9e5f26423e"
+  },
+  "reveal": {
+    "brief_voiced": "The killer was Zane Swain. The touch faltered twice. Fides tripped about the second minute of the touch; the green hand's own trip — a new hand's stumble convicts nobody, and the tower thinks no worse of it. But Spes hung late where the method wanted her elsewhere, and no custom excuses it; that rope was in Zane Swain's keeping, and the hands that should have held it were free about the second minute of the touch. Wat Frew did not survive the office.\n\nAs to the why of it: Of Zane Swain, the playbill says: Zane Swain — a footman, twin to Fifi; correct in all things, fond of the rules. Of Wat Frew: Captain Wat Frew — a sea-captain of elastic accounts; owed money by half the company.\n\nThe tower proved every pair of hands but one.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "241635",
+        "426153",
+        "462513",
+        "645231",
+        "654321",
+        "563421",
+        "536142",
+        "351642",
+        "315264",
+        "132546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "lavinia",
+        "2": "zane",
+        "3": "gaunt",
+        "4": "tolmie",
+        "5": "aziz",
+        "6": "bellamy"
+      },
+      "flaw_row": 9,
+      "flaw_place": 5,
+      "innocent_row": 7,
+      "innocent_place": 5
+    },
+    "killer_display": "Zane Swain",
+    "victim_display": "Wat Frew"
+  }
+}
