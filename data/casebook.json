@@ -1,5 +1,15 @@
 [
   {
+    "number": 57,
+    "slug": "1886-08-28",
+    "title": "The Viewing of the Sapphire",
+    "published": "2026-08-28",
+    "brief": false,
+    "victim": "aziz",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260827_233002_931353_generated_cecil-aziz"
+  },
+  {
     "number": 56,
     "slug": "1886-08-27",
     "title": "The Regimental Dinner at Cruikshank Manor",
