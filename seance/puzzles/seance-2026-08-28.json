@@ -1,0 +1,217 @@
+{
+  "id": "seance-2026-08-28",
+  "mode": "testimony",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "cold",
+        "display": "the cold draught"
+      },
+      {
+        "id": "lamp",
+        "display": "the guttering of the lamp"
+      },
+      {
+        "id": "tilt",
+        "display": "the table's tilt"
+      },
+      {
+        "id": "touch",
+        "display": "the touch"
+      },
+      {
+        "id": "trumpet",
+        "display": "the spirit trumpet"
+      },
+      {
+        "id": "voice",
+        "display": "the whispered voice"
+      },
+      {
+        "id": "writing",
+        "display": "the spirit writing"
+      }
+    ]
+  },
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "cousin_r",
+      "display_name": "Cousin R",
+      "portrait": "/assets/cousin-r.jpg"
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg"
+    },
+    {
+      "id": "wat",
+      "display_name": "Captain Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "touch",
+            "b": "voice",
+            "n": 1
+          },
+          "voiced": "One manifestation passed between the touch and the whispered voice."
+        }
+      ]
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "writing",
+            "b": "cold"
+          },
+          "voiced": "The spirit writing came before the cold draught."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "lamp",
+            "b": "tilt",
+            "n": 2
+          },
+          "voiced": "Two manifestations passed between the guttering of the lamp and the table's tilt."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "touch",
+            "b": "writing"
+          },
+          "voiced": "The touch came before the spirit writing."
+        }
+      ]
+    },
+    {
+      "id": "cousin_r",
+      "display_name": "Cousin R",
+      "portrait": "/assets/cousin-r.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "touch",
+            "b": "trumpet"
+          },
+          "voiced": "The touch came before the spirit trumpet."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "lamp",
+            "b": "tilt",
+            "n": 4
+          },
+          "voiced": "Four manifestations passed between the guttering of the lamp and the table's tilt."
+        }
+      ]
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "cold",
+            "b": "lamp"
+          },
+          "voiced": "The guttering of the lamp came hard upon the cold draught."
+        },
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "tilt",
+            "b": "voice"
+          },
+          "voiced": "The whispered voice came hard upon the table's tilt."
+        }
+      ]
+    },
+    {
+      "id": "wat",
+      "display_name": "Captain Wat Frew",
+      "portrait": "/assets/wat.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "trumpet",
+            "b": "writing"
+          },
+          "voiced": "The spirit writing came hard upon the spirit trumpet."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "tilt",
+            "b": "trumpet"
+          },
+          "voiced": "The table's tilt came before the spirit trumpet."
+        }
+      ]
+    }
+  ],
+  "victim": "aziz",
+  "answer_hashes": {
+    "solution": "19893521c2462241d34b107617fe0a29d9b01896ef4a5d8219d8ac03793879d2",
+    "killer": "1c23c70b31da6c2095ee9cf189b980e3cbc3417a1fd6568116ca4f46a7b882eb",
+    "salt": "dec4d122f572c9b7"
+  },
+  "reveal": {
+    "ledger_voiced": "From my book. The sitting ran as I ran it: the touch: a kid glove, stuffed with wool and kept on the ice; the table's tilt: the wedge of my boot beneath the claw-foot; the whispered voice: my own voice, thrown low; grief hears what it is owed; the spirit trumpet: black silk thread, and the reach of a practised arm; the spirit writing: the slates changed in the dark; chalk-crumb on my cuff; the cold draught: the window cord, loosed an inch before the lamps went out; the guttering of the lamp: a wick trimmed short at six o'clock; it wants ten minutes.\n\nAs to the evening's business: the account Nan Pringle swore to was an invention, for those hands were out of the dark and about their own work. Aziz was past any sitting's reach before the lamps were lit.\n\nThe dead say what it profits me they say; on this occasion they profited Nan Pringle more.",
+    "truth": {
+      "order": [
+        "the touch",
+        "the table's tilt",
+        "the whispered voice",
+        "the spirit trumpet",
+        "the spirit writing",
+        "the cold draught",
+        "the guttering of the lamp"
+      ]
+    },
+    "killer_display": "Nan Pringle",
+    "victim_display": "Aziz"
+  }
+}
