@@ -1,5 +1,15 @@
 [
   {
+    "number": 58,
+    "slug": "1886-08-29",
+    "title": "The Homecoming at Cruikshank Manor",
+    "published": "2026-08-29",
+    "brief": false,
+    "victim": "cecil",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260828_233822_466060_generated_quill-cecil"
+  },
+  {
     "number": 57,
     "slug": "1886-08-28",
     "title": "The Viewing of the Sapphire",
