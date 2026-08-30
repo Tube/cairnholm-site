@@ -4,7 +4,7 @@
     "slug": "1886-08-29",
     "title": "The Homecoming at Cruikshank Manor",
     "published": "2026-08-29",
-    "brief": false,
+    "brief": true,
     "victim": "cecil",
     "venue": "colonel_house",
     "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260828_233822_466060_generated_quill-cecil"
