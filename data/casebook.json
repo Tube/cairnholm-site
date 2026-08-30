@@ -1,5 +1,15 @@
 [
   {
+    "number": 59,
+    "slug": "1886-08-30",
+    "title": "Grace Before Dinner",
+    "published": "2026-08-30",
+    "brief": false,
+    "victim": "gaunt",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260829_233002_525256_generated_xerxes-gaunt"
+  },
+  {
     "number": 58,
     "slug": "1886-08-29",
     "title": "The Homecoming at Cruikshank Manor",
