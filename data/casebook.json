@@ -1,5 +1,15 @@
 [
   {
+    "number": 60,
+    "slug": "1886-08-31",
+    "title": "The Homecoming at Cruikshank Manor",
+    "published": "2026-08-31",
+    "brief": false,
+    "victim": "effie",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260830_233003_035100_generated_cousin_r-effie"
+  },
+  {
     "number": 59,
     "slug": "1886-08-30",
     "title": "Grace Before Dinner",
