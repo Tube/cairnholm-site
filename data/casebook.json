@@ -1,5 +1,15 @@
 [
   {
+    "number": 61,
+    "slug": "1886-09-01",
+    "title": "The Turned Page",
+    "published": "2026-09-01",
+    "brief": false,
+    "victim": "lavinia",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260831_233003_615844_generated_aziz-lavinia"
+  },
+  {
     "number": 60,
     "slug": "1886-08-31",
     "title": "The Homecoming at Cruikshank Manor",
