@@ -1,0 +1,240 @@
+{
+  "id": "vespers-2026-09-02",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "tolmie",
+      "display_name": "Hew Tolmie",
+      "portrait": null
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "lavinia",
+        "display_name": "Lady Lavinia Loveless"
+      },
+      {
+        "id": "xerxes",
+        "display_name": "Xerxes Hartfield"
+      },
+      {
+        "id": "aziz",
+        "display_name": "Aziz"
+      },
+      {
+        "id": "tolmie",
+        "display_name": "Hew Tolmie"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "gaunt",
+  "clues": [
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "caritas",
+        "upon": "fides",
+        "window": "early"
+      },
+      "voiced": "Caritas did not strike upon Fides early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "bellamy",
+        "b": "tolmie"
+      },
+      "voiced": "Captain Bellamy stood across the circle from Hew Tolmie."
+    },
+    {
+      "tokens": {
+        "type": "greenest",
+        "person": "lavinia"
+      },
+      "voiced": "Lady Lavinia Loveless had never stood to a rope before that evening."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "fides",
+        "upon": "auld_roque",
+        "window": "late"
+      },
+      "voiced": "Toward the end of the touch, Fides struck upon Auld Roque."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "lavinia",
+        "b": "xerxes"
+      },
+      "voiced": "Lady Lavinia Loveless stood across the circle from Xerxes Hartfield."
+    },
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "fides",
+        "upon": "caritas",
+        "window": "early"
+      },
+      "voiced": "Fides did not strike upon Caritas early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "deas",
+        "b": "tolmie"
+      },
+      "voiced": "Obadiah Deas and Hew Tolmie took neighbouring ropes."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "8e6f341e7eb2ba1e57fd41a1e77a6d1be33cb8a5a5a7ad32c3e0a04139dc5f76",
+    "ropes": "f2336f76e003578cba95ba9fdd7d20757783c00a23879b07bc356af53067200e",
+    "killer": "9e3b9f0c0e28d820c19906a3266af9ee004323426ceb3c91c8d57d94b4e3ad51",
+    "salt": "9fc001f7966d562f"
+  },
+  "reveal": {
+    "brief_voiced": "The killer was Aziz. The touch faltered twice. Fides tripped about the second minute of the touch; the green hand's own trip — a new hand's stumble convicts nobody, and the tower thinks no worse of it. But Temperantia hung late where the method wanted her elsewhere, and no custom excuses it; that rope was in Aziz's keeping, and the hands that should have held it were free about the first minute of the touch. the Reverend Simeon Gaunt did not survive the office.\n\nAs to the why of it: Of Aziz, the playbill says: Aziz — Xerxes's companion, constant at his side; a fixture no one enquires into. Of the Reverend Simeon Gaunt: Reverend Simeon Gaunt — a mortifying cleric; imposes penance and keeps to his own parish.\n\nThe tower proved every pair of hands but one.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "241635",
+        "426153",
+        "462153",
+        "645231",
+        "654321",
+        "563412",
+        "536142",
+        "356124",
+        "315264",
+        "132546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "lavinia",
+        "2": "deas",
+        "3": "tolmie",
+        "4": "xerxes",
+        "5": "aziz",
+        "6": "bellamy"
+      },
+      "flaw_row": 4,
+      "flaw_place": 4,
+      "innocent_row": 9,
+      "innocent_place": 3
+    },
+    "killer_display": "Aziz",
+    "victim_display": "the Reverend Simeon Gaunt"
+  }
+}
