@@ -1,0 +1,213 @@
+{
+  "id": "seance-2026-09-04",
+  "mode": "message",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "A",
+        "display": "A"
+      },
+      {
+        "id": "C",
+        "display": "C"
+      },
+      {
+        "id": "H",
+        "display": "H"
+      },
+      {
+        "id": "I",
+        "display": "I"
+      },
+      {
+        "id": "M",
+        "display": "M"
+      },
+      {
+        "id": "R",
+        "display": "R"
+      },
+      {
+        "id": "Y",
+        "display": "Y"
+      }
+    ],
+    "word_lengths": [
+      2,
+      5
+    ]
+  },
+  "cast": [
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg"
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "M",
+            "b": "R",
+            "n": 5
+          },
+          "voiced": "Five letters passed between the M and the R."
+        }
+      ]
+    },
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "first",
+            "a": "M"
+          },
+          "voiced": "The M came first."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "H",
+            "b": "Y"
+          },
+          "voiced": "The H came before the Y."
+        },
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "C",
+            "b": "I"
+          },
+          "voiced": "The I came hard upon the C."
+        }
+      ]
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "M",
+            "b": "Y"
+          },
+          "voiced": "The Y came hard upon the M."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "M",
+            "b": "Y"
+          },
+          "voiced": "The M came before the Y."
+        }
+      ]
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "C",
+            "b": "I",
+            "n": 2
+          },
+          "voiced": "Two letters passed between the C and the I."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "A",
+            "b": "C",
+            "n": 1
+          },
+          "voiced": "One letter passed between the A and the C."
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "C",
+            "b": "H"
+          },
+          "voiced": "The H came hard upon the C."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "H",
+            "b": "M",
+            "n": 2
+          },
+          "voiced": "Two letters passed between the H and the M."
+        }
+      ]
+    }
+  ],
+  "victim": "fifi",
+  "answer_hashes": {
+    "solution": "336a405f39677e09bb9a9b88e1eeccf216146e376ecc7761097d6d895fef4e9c",
+    "killer": "8a90de54b10a7ad5e9c9b50316358bd31151d614b236bde0ed39148eb7e52111",
+    "salt": "92f2d41216e7dcfb"
+  },
+  "reveal": {
+    "ledger_voiced": "From my book. The sitting ran as I ran it: the glass, and my hand upon it, as ever. The glass spelled MY CHAIR; the glass goes where I send it.\n\nAs to the evening's business: the account the Colonel swore to was an invention, for those hands were out of the dark and about their own work. Fifi Swain was past any sitting's reach before the lamps were lit.\n\nThe dead say what it profits me they say; on this occasion they profited the Colonel more.",
+    "truth": {
+      "message": "MYCHAIR"
+    },
+    "killer_display": "the Colonel",
+    "victim_display": "Fifi Swain"
+  }
+}
