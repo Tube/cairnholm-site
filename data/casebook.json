@@ -1,5 +1,15 @@
 [
   {
+    "number": 67,
+    "slug": "1886-09-07",
+    "title": "The Homecoming at Hartfield House",
+    "published": "2026-09-07",
+    "brief": false,
+    "victim": "effie",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260906_233002_849533_generated_nan-effie"
+  },
+  {
     "number": 66,
     "slug": "1886-09-06",
     "title": "The Sunday Ball",
