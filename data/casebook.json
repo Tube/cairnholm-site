@@ -4,7 +4,7 @@
     "slug": "1886-09-08",
     "title": "A Birthday at Cruikshank Manor",
     "published": "2026-09-08",
-    "brief": false,
+    "brief": true,
     "victim": "lavinia",
     "venue": "colonel_house",
     "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260907_233003_455294_generated_effie-lavinia"
