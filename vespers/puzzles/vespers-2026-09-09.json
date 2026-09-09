@@ -1,0 +1,240 @@
+{
+  "id": "vespers-2026-09-09",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "cecil",
+      "display_name": "the Colonel",
+      "portrait": "/assets/colonel.jpg"
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "wat",
+      "display_name": "Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "wat",
+        "display_name": "Wat Frew"
+      },
+      {
+        "id": "effie",
+        "display_name": "Effie Strange"
+      },
+      {
+        "id": "xerxes",
+        "display_name": "Xerxes Hartfield"
+      },
+      {
+        "id": "cecil",
+        "display_name": "the Colonel"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "quill",
+  "clues": [
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "patientia",
+        "upon": "auld_roque",
+        "window": "middle"
+      },
+      "voiced": "Patientia did not strike upon Auld Roque about the middle of the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "deas",
+        "b": "xerxes"
+      },
+      "voiced": "Obadiah Deas stood across the circle from Xerxes Hartfield."
+    },
+    {
+      "tokens": {
+        "type": "greenest",
+        "person": "cecil"
+      },
+      "voiced": "the Colonel had never stood to a rope before that evening."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "fides",
+        "upon": "auld_roque",
+        "window": "late"
+      },
+      "voiced": "Toward the end of the touch, Fides struck upon Auld Roque."
+    },
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "auld_roque",
+        "upon": "patientia",
+        "window": "middle"
+      },
+      "voiced": "Auld Roque did not strike upon Patientia about the middle of the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "cecil",
+        "b": "xerxes"
+      },
+      "voiced": "the Colonel and Xerxes Hartfield took neighbouring ropes."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "deas",
+        "b": "effie"
+      },
+      "voiced": "Obadiah Deas and Effie Strange took neighbouring ropes."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "f5ea869e6b9cbb86dd5ed2d487fc30ff958ca3909ff6eb106887b0db7c5b45ab",
+    "ropes": "4877cac754a9b0887531f54b5650c17438e52c12bde2a2bd7a14c4fe27603d61",
+    "killer": "2c0fcf8a1e7b6f091338ac60e1676b564570250fef4b324d05b51a100b7b1758",
+    "salt": "e72bdd69710f643d"
+  },
+  "reveal": {
+    "brief_voiced": "The killer was Effie Strange. The touch faltered twice. Fides tripped about the second minute of the touch; the green hand's own trip — a new hand's stumble convicts nobody, and the tower thinks no worse of it. But Patientia hung late where the method wanted her elsewhere, and no custom excuses it; that rope was in Effie Strange's keeping, and the hands that should have held it were free about the second minute of the touch. Dr Tobias Quill did not survive the office.\n\nAs to the why of it: Of Effie Strange, the playbill says: Effie Strange — cleverer than the company finds comfortable, spendthrift, adored and exhausting; always short of money. Of Dr Tobias Quill: Dr Tobias Quill — a nervous physician and coroner; supplies the company its remedies.\n\nThe tower proved every pair of hands but one.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "241635",
+        "426153",
+        "462513",
+        "654231",
+        "654321",
+        "563412",
+        "536142",
+        "356124",
+        "315264",
+        "132546",
+        "123456"
+      ],
+      "ropes": {
+        "1": "cecil",
+        "2": "xerxes",
+        "3": "wat",
+        "4": "effie",
+        "5": "deas",
+        "6": "bellamy"
+      },
+      "flaw_row": 5,
+      "flaw_place": 2,
+      "innocent_row": 9,
+      "innocent_place": 3
+    },
+    "killer_display": "Effie Strange",
+    "victim_display": "Dr Tobias Quill"
+  }
+}
