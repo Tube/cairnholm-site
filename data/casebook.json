@@ -1,5 +1,15 @@
 [
   {
+    "number": 70,
+    "slug": "1886-09-10",
+    "title": "The Lantern Lecture at Cruikshank Manor",
+    "published": "2026-09-10",
+    "brief": false,
+    "victim": "cousin_r",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260909_233002_899368_generated_gaunt-cousin_r"
+  },
+  {
     "number": 69,
     "slug": "1886-09-09",
     "title": "The Statue That Would Not Stand Still",
