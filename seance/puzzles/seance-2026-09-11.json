@@ -1,0 +1,259 @@
+{
+  "id": "seance-2026-09-11",
+  "mode": "debunker",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "lamp",
+        "display": "the guttering of the lamp"
+      },
+      {
+        "id": "raps",
+        "display": "the raps"
+      },
+      {
+        "id": "tilt",
+        "display": "the table's tilt"
+      },
+      {
+        "id": "touch",
+        "display": "the touch"
+      },
+      {
+        "id": "trumpet",
+        "display": "the spirit trumpet"
+      },
+      {
+        "id": "violets",
+        "display": "the scent of violets"
+      },
+      {
+        "id": "writing",
+        "display": "the spirit writing"
+      }
+    ],
+    "means": [
+      {
+        "id": "boot",
+        "display": "the wedge of a boot"
+      },
+      {
+        "id": "cord",
+        "display": "the window cord"
+      },
+      {
+        "id": "glove",
+        "display": "a stuffed glove"
+      },
+      {
+        "id": "knee",
+        "display": "her knee against the leaf"
+      },
+      {
+        "id": "slate",
+        "display": "a changed slate"
+      },
+      {
+        "id": "wick",
+        "display": "a trimmed wick"
+      }
+    ]
+  },
+  "cast": [
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg"
+    },
+    {
+      "id": "wat",
+      "display_name": "Captain Wat Frew",
+      "portrait": "/assets/wat.jpg"
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "writing",
+            "means": "knee"
+          },
+          "voiced": "The spirit writing was her knee against the leaf's doing."
+        }
+      ]
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "writing",
+            "means": "boot"
+          },
+          "voiced": "The spirit writing was not the wedge of a boot's doing."
+        },
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "lamp",
+            "means": "cord"
+          },
+          "voiced": "The guttering of the lamp was the window cord's doing."
+        }
+      ]
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "touch",
+            "means": "wick"
+          },
+          "voiced": "The touch was a trimmed wick's doing."
+        },
+        {
+          "tokens": {
+            "type": "unproduced",
+            "item": "tilt"
+          },
+          "voiced": "Nothing of the medium's was at the table's tilt."
+        }
+      ]
+    },
+    {
+      "id": "fifi",
+      "display_name": "Fifi Swain",
+      "portrait": "/assets/swains.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "trumpet",
+            "means": "boot"
+          },
+          "voiced": "The spirit trumpet was the wedge of a boot's doing."
+        },
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "raps",
+            "means": "slate"
+          },
+          "voiced": "The raps was a changed slate's doing."
+        }
+      ]
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "produced_by",
+            "item": "touch",
+            "means": "boot"
+          },
+          "voiced": "The touch was the wedge of a boot's doing."
+        },
+        {
+          "tokens": {
+            "type": "was_produced",
+            "item": "touch"
+          },
+          "voiced": "The touch was apparatus, whatever else it was."
+        },
+        {
+          "tokens": {
+            "type": "not_produced_by",
+            "item": "lamp",
+            "means": "glove"
+          },
+          "voiced": "The guttering of the lamp was not a stuffed glove's doing."
+        }
+      ]
+    }
+  ],
+  "victim": "wat",
+  "answer_hashes": {
+    "solution": "58c778e7850bb88068b1eb59120b4d915cf0a19357aac786c9a2e0b4fa726cac",
+    "killer": "426736e8c644787b264984c633474b6faf3382e07f437314148c239ec7f29fc4",
+    "salt": "20446567781fe8e7"
+  },
+  "reveal": {
+    "ledger_voiced": "From my book. The sitting ran as I ran it: the spirit writing: her knee against the leaf; the spirit trumpet: the wedge of a boot; the scent of violets: a stuffed glove; the guttering of the lamp: the window cord; the touch: a trimmed wick; the raps: a changed slate. The table's tilt I did not produce, and did not care for.\n\nAs to the evening's business: the account Zane Swain swore to was an invention, for those hands were out of the dark and about their own work. Captain Wat Frew was past any sitting's reach before the lamps were lit.\n\nThe dead say what it profits me they say; on this occasion they profited Zane Swain more.",
+    "truth": {
+      "pairs": [
+        [
+          "the guttering of the lamp",
+          "the window cord"
+        ],
+        [
+          "the raps",
+          "a changed slate"
+        ],
+        [
+          "the table's tilt",
+          null
+        ],
+        [
+          "the touch",
+          "a trimmed wick"
+        ],
+        [
+          "the spirit trumpet",
+          "the wedge of a boot"
+        ],
+        [
+          "the scent of violets",
+          "a stuffed glove"
+        ],
+        [
+          "the spirit writing",
+          "her knee against the leaf"
+        ]
+      ]
+    },
+    "killer_display": "Zane Swain",
+    "victim_display": "Captain Wat Frew"
+  }
+}
