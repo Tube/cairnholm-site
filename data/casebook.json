@@ -1,5 +1,15 @@
 [
   {
+    "number": 73,
+    "slug": "1886-09-13",
+    "title": "The Sunday Sweets at Hartfield House",
+    "published": "2026-09-13",
+    "brief": false,
+    "victim": "aziz",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260912_233003_504714_generated_effie-aziz"
+  },
+  {
     "number": 72,
     "slug": "1886-09-12",
     "title": "The Turkish Bath at Hartfield House",
