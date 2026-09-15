@@ -1,5 +1,15 @@
 [
   {
+    "number": 75,
+    "slug": "1886-09-15",
+    "title": "The Guest at the Indian Dinner",
+    "published": "2026-09-15",
+    "brief": false,
+    "victim": "aziz",
+    "venue": "xerxes_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260914_233004_127611_generated_cousin_r-aziz"
+  },
+  {
     "number": 74,
     "slug": "1886-09-14",
     "title": "The Charity Tableaux",
