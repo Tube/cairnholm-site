@@ -1,0 +1,247 @@
+{
+  "id": "vespers-2026-09-16",
+  "difficulty": "standard",
+  "ring": {
+    "bells": [
+      {
+        "id": "fides",
+        "name": "Fides",
+        "number": 1
+      },
+      {
+        "id": "spes",
+        "name": "Spes",
+        "number": 2
+      },
+      {
+        "id": "caritas",
+        "name": "Caritas",
+        "number": 3
+      },
+      {
+        "id": "patientia",
+        "name": "Patientia",
+        "number": 4
+      },
+      {
+        "id": "temperantia",
+        "name": "Temperantia",
+        "number": 5
+      },
+      {
+        "id": "auld_roque",
+        "name": "Auld Roque",
+        "number": 6
+      }
+    ]
+  },
+  "chamber": {
+    "ropes": 6,
+    "tenor_rope": 6
+  },
+  "method": {
+    "id": "plain_hunt_6",
+    "name": "Plain Hunt",
+    "place_notation": "x.16",
+    "changes": 12,
+    "prescribed": [
+      "123456",
+      "214365",
+      "241635",
+      "426153",
+      "462513",
+      "645231",
+      "654321",
+      "563412",
+      "536142",
+      "351624",
+      "315264",
+      "132546",
+      "123456"
+    ]
+  },
+  "customs": [
+    {
+      "id": "tenor_captain",
+      "text": "Auld Roque is rung by the captain, and by no other hand."
+    },
+    {
+      "id": "treble_greenest",
+      "text": "The treble is given to the greenest hand."
+    },
+    {
+      "id": "kin_apart",
+      "text": "Kin do not ring adjacent ropes."
+    }
+  ],
+  "cast": [
+    {
+      "id": "aziz",
+      "display_name": "Aziz",
+      "portrait": "/assets/aziz.jpg"
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Captain Bellamy",
+      "portrait": null
+    },
+    {
+      "id": "deas",
+      "display_name": "Obadiah Deas",
+      "portrait": null
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "tolmie",
+      "display_name": "Hew Tolmie",
+      "portrait": null
+    },
+    {
+      "id": "zane",
+      "display_name": "Zane Swain",
+      "portrait": "/assets/swains.jpg"
+    }
+  ],
+  "attendance": {
+    "ringers": [
+      {
+        "id": "aziz",
+        "display_name": "Aziz"
+      },
+      {
+        "id": "quill",
+        "display_name": "Dr Tobias Quill"
+      },
+      {
+        "id": "lavinia",
+        "display_name": "Lady Lavinia Loveless"
+      },
+      {
+        "id": "tolmie",
+        "display_name": "Hew Tolmie"
+      },
+      {
+        "id": "deas",
+        "display_name": "Obadiah Deas"
+      }
+    ],
+    "captain": "bellamy"
+  },
+  "victim": "zane",
+  "clues": [
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "temperantia",
+        "upon": "fides",
+        "window": "early"
+      },
+      "voiced": "Temperantia did not strike upon Fides early in the touch."
+    },
+    {
+      "tokens": {
+        "type": "never_strikes_upon",
+        "bell": "auld_roque",
+        "upon": "patientia",
+        "window": "late"
+      },
+      "voiced": "Auld Roque did not strike upon Patientia toward the end of the touch."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "aziz",
+        "b": "deas"
+      },
+      "voiced": "Aziz stood across the circle from Obadiah Deas."
+    },
+    {
+      "tokens": {
+        "type": "greenest",
+        "person": "quill"
+      },
+      "voiced": "Dr Tobias Quill had never stood to a rope before that evening."
+    },
+    {
+      "tokens": {
+        "type": "no_place",
+        "row": 3
+      },
+      "voiced": "No bell made her place at the third change."
+    },
+    {
+      "tokens": {
+        "type": "window_strikes_upon",
+        "bell": "temperantia",
+        "upon": "spes",
+        "window": "late"
+      },
+      "voiced": "Toward the end of the touch, Temperantia struck upon Spes."
+    },
+    {
+      "tokens": {
+        "type": "rope_adjacent",
+        "a": "aziz",
+        "b": "quill"
+      },
+      "voiced": "Aziz and Dr Tobias Quill took neighbouring ropes."
+    },
+    {
+      "tokens": {
+        "type": "rope_opposite",
+        "a": "bellamy",
+        "b": "tolmie"
+      },
+      "voiced": "Captain Bellamy stood across the circle from Hew Tolmie."
+    }
+  ],
+  "answer_hashes": {
+    "rows": "c603b5d486bb3204940b0a71069b1f16eea3817fae1667a45736b3689f0b27a6",
+    "ropes": "4661d65a6b4417695870ac7ff1fdcf9fef4599b2030ab3f69202d38b3d009fa4",
+    "killer": "1ebbc0acff20e66c546a1096ae46466885efa7ab54c31c30941a57dc0e0208e9",
+    "salt": "f640a08e77ce2d5c"
+  },
+  "reveal": {
+    "brief_voiced": "The killer was Lady Lavinia Loveless. The touch faltered twice. Fides tripped about the first minute of the touch; the green hand's own trip — a new hand's stumble convicts nobody, and the tower thinks no worse of it. But Patientia hung late where the method wanted her elsewhere, and no custom excuses it; that rope was in Lady Lavinia Loveless's keeping, and the hands that should have held it were free about the third minute of the touch. Zane Swain did not survive the office.\n\nAs to the why of it: Of Lady Lavinia Loveless, the playbill says: Lady Lavinia Loveless — a faded actress turned medium; apt to let people rather too close. Of Zane Swain: Zane Swain — a footman, twin to Fifi; correct in all things, fond of the rules.\n\nThe tower proved every pair of hands but one.",
+    "diagram": {
+      "rows": [
+        "123456",
+        "214365",
+        "241635",
+        "426513",
+        "462513",
+        "645231",
+        "654321",
+        "563412",
+        "536142",
+        "351624",
+        "315264",
+        "132564",
+        "123456"
+      ],
+      "ropes": {
+        "1": "quill",
+        "2": "aziz",
+        "3": "tolmie",
+        "4": "lavinia",
+        "5": "deas",
+        "6": "bellamy"
+      },
+      "flaw_row": 11,
+      "flaw_place": 5,
+      "innocent_row": 3,
+      "innocent_place": 4
+    },
+    "killer_display": "Lady Lavinia Loveless",
+    "victim_display": "Zane Swain"
+  }
+}
