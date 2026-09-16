@@ -1,5 +1,15 @@
 [
   {
+    "number": 76,
+    "slug": "1886-09-16",
+    "title": "The Page-Turner",
+    "published": "2026-09-16",
+    "brief": false,
+    "victim": "nan",
+    "venue": "colonel_house",
+    "run_dir": "C:\\Users\\ms\\Tarot-Bastard\\Tarot-Bastard\\cairnholm_pipeline\\output\\20260915_233003_717782_generated_lavinia-nan"
+  },
+  {
     "number": 75,
     "slug": "1886-09-15",
     "title": "The Guest at the Indian Dinner",
