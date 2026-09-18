@@ -1,0 +1,218 @@
+{
+  "id": "seance-2026-09-18",
+  "mode": "testimony",
+  "difficulty": "standard",
+  "sitting": {
+    "items": [
+      {
+        "id": "cold",
+        "display": "the cold draught"
+      },
+      {
+        "id": "lamp",
+        "display": "the guttering of the lamp"
+      },
+      {
+        "id": "raps",
+        "display": "the raps"
+      },
+      {
+        "id": "tilt",
+        "display": "the table's tilt"
+      },
+      {
+        "id": "touch",
+        "display": "the touch"
+      },
+      {
+        "id": "violets",
+        "display": "the scent of violets"
+      },
+      {
+        "id": "writing",
+        "display": "the spirit writing"
+      }
+    ]
+  },
+  "cast": [
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg"
+    },
+    {
+      "id": "gaunt",
+      "display_name": "the Reverend Simeon Gaunt",
+      "portrait": "/assets/gaunt.jpg"
+    },
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg"
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg"
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg"
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg"
+    }
+  ],
+  "medium": "lavinia",
+  "sitters": [
+    {
+      "id": "lavinia",
+      "display_name": "Lady Lavinia Loveless",
+      "portrait": "/assets/lavinia.jpg",
+      "medium": true,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "lamp",
+            "b": "raps"
+          },
+          "voiced": "The guttering of the lamp came before the raps."
+        }
+      ]
+    },
+    {
+      "id": "nan",
+      "display_name": "Nan Pringle",
+      "portrait": "/assets/nan.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "tilt",
+            "b": "cold"
+          },
+          "voiced": "The table's tilt came before the cold draught."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "tilt",
+            "b": "touch",
+            "n": 2
+          },
+          "voiced": "Two manifestations passed between the table's tilt and the touch."
+        }
+      ]
+    },
+    {
+      "id": "effie",
+      "display_name": "Effie Strange",
+      "portrait": "/assets/effie.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "before",
+            "a": "cold",
+            "b": "violets"
+          },
+          "voiced": "The cold draught came before the scent of violets."
+        },
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "cold",
+            "b": "touch"
+          },
+          "voiced": "The touch came hard upon the cold draught."
+        }
+      ]
+    },
+    {
+      "id": "quill",
+      "display_name": "Dr Tobias Quill",
+      "portrait": "/assets/quill.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "lamp",
+            "b": "raps",
+            "n": 5
+          },
+          "voiced": "Five manifestations passed between the guttering of the lamp and the raps."
+        },
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "lamp",
+            "b": "touch",
+            "n": 3
+          },
+          "voiced": "Three manifestations passed between the guttering of the lamp and the touch."
+        }
+      ]
+    },
+    {
+      "id": "xerxes",
+      "display_name": "Xerxes Hartfield",
+      "portrait": "/assets/xerxes.jpg",
+      "medium": false,
+      "claims": [
+        {
+          "tokens": {
+            "type": "gap",
+            "a": "touch",
+            "b": "writing",
+            "n": 2
+          },
+          "voiced": "Two manifestations passed between the touch and the spirit writing."
+        },
+        {
+          "tokens": {
+            "type": "before",
+            "a": "writing",
+            "b": "violets"
+          },
+          "voiced": "The spirit writing came before the scent of violets."
+        },
+        {
+          "tokens": {
+            "type": "hard_upon",
+            "a": "raps",
+            "b": "tilt"
+          },
+          "voiced": "The table's tilt came hard upon the raps."
+        }
+      ]
+    }
+  ],
+  "victim": "gaunt",
+  "answer_hashes": {
+    "solution": "e4418b65be0392b8dd27b91fe4315e5104c840a01b110ef1a6ab6cb8888571c7",
+    "killer": "7f16713c8b9858c9e70d4aec9083d6c00d948acf17f845ec32c7853c0d718acc",
+    "salt": "2bd916502253b744"
+  },
+  "reveal": {
+    "ledger_voiced": "From my book. The sitting ran as I ran it: the guttering of the lamp: a wick trimmed short at six o'clock; it wants ten minutes; the table's tilt: the wedge of my boot beneath the claw-foot; the spirit writing: the slates changed in the dark; chalk-crumb on my cuff; the cold draught: the window cord, loosed an inch before the lamps went out; the touch: a kid glove, stuffed with wool and kept on the ice; the scent of violets: a phial in my left sleeve; the right was held; the raps: my knee against the table's leaf, twice and thrice.\n\nAs to the evening's business: the account Xerxes Hartfield swore to was an invention, for those hands were out of the dark and about their own work. the Reverend Simeon Gaunt was past any sitting's reach before the lamps were lit.\n\nThe dead say what it profits me they say; on this occasion they profited Xerxes Hartfield more.",
+    "truth": {
+      "order": [
+        "the guttering of the lamp",
+        "the table's tilt",
+        "the spirit writing",
+        "the cold draught",
+        "the touch",
+        "the scent of violets",
+        "the raps"
+      ]
+    },
+    "killer_display": "Xerxes Hartfield",
+    "victim_display": "the Reverend Simeon Gaunt"
+  }
+}
